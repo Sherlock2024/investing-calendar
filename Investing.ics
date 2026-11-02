@@ -40,8 +40,9 @@ DESCRIPTION:美东时间: 2026-11-10 08:30 ET\n北京时间: 2026-11-10 21
  :30\n来源: https://www.bls.gov/schedule/2026/home.htm\n预期：尚无
  正式一致预期；克利夫兰联储Nowcast：10月CPI环比0.24%/同
  比3.74%，核心环比0.21%/同比2.48%；TD预测环比0.30%、核心0.2
- 1%（前值同比3.7%）\n预期来源: Cleveland Fed Inflation Nowcasting
- 、Prediction.com引TD 2026-11-02查\n预期更新于 2026-11-02
+ 1%；Kalshi隐含环比约0.28%（前值环比0.6%/同比3.7%）\n预期
+ 来源: Cleveland Fed Inflation Nowcasting(10/30)、Prediction.com引TD、
+ Nowflation(Kalshi) 2026-11-02查\n预期更新于 2026-11-02
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:美国11月CPI
@@ -134,17 +135,19 @@ DESCRIPTION:美东时间: 2027-03-12 08:30 ET\n北京时间: 2027-03-12 21
  （临近时更新）
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:美国10月非农就业报告（预期 +5.5~6.5万）
+SUMMARY:美国10月非农就业报告（预期 +6.5万）
 DTSTART;TZID=Asia/Shanghai:20261106T213000
 DTEND;TZID=Asia/Shanghai:20261106T220000
 DTSTAMP:20261102T040000Z
 UID:nfp-20261106@investing
 DESCRIPTION:美东时间: 2026-11-06 08:30 ET\n北京时间: 2026-11-06 21
  :30\n来源: https://www.bls.gov/schedule/2026/home.htm\n预期：一致
- 预期：非农+5.5万（Newsquawk）~+6.5万（Bloomberg/gov.house）；
- 前值+2.9万。失业率4.2%（前值4.2%）；平均时薪环比+0.3%（
- 前值+0.1%），同比2.9%–3.0%\n预期来源: Newsquawk(10/30)、gov.h
- ouse、Wells Fargo周报(10/30) 2026-11-02查\n预期更新于 2026-11-02
+ 预期：非农+6.5万（Bloomberg/TD汇总），各机构区间+4.2万（
+ RBC）~+6.5万，KPMG +4.5万，Newsquawk +5.5万；Kalshi市场中位数
+ 约+6万；前值+2.9万。失业率4.2%（前值4.2%，Kalshi中位4.1%
+ ）；平均时薪环比+0.3%（前值+0.1%），同比约2.9%\n预期来
+ 源: TD Economics/Bloomberg(10/30)、CiVL汇总(RBC/KPMG)、Newsquawk、Ka
+ lshi(PredictionScout 11/1) 2026-11-02查\n预期更新于 2026-11-02
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:美国11月非农就业报告
@@ -194,8 +197,9 @@ DTSTAMP:20261102T040000Z
 UID:jolts-20261103@investing
 DESCRIPTION:美东时间: 2026-11-03 10:00 ET\n北京时间: 2026-11-03 23
  :00\n来源: https://www.bls.gov/schedule/news_release/jolts.htm\n预期
- ：一致预期：9月职位空缺约710万（前值708万）\n预期来
- 源: gov.house/Newsquawk 2026-11-02查\n预期更新于 2026-11-02
+ ：一致预期：9月职位空缺710–711万（前值707.9万）\n预期
+ 来源: Briefing.com(Cons 7.100M)、FXStreet/Followme(7.110M)、Newsquawk 
+ 2026-11-02查\n预期更新于 2026-11-02
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:美国10月JOLTS职位空缺
@@ -372,8 +376,10 @@ UID:ismm-20261102@investing
 DESCRIPTION:美东时间: 2026-11-02 10:00 ET\n北京时间: 2026-11-02 23
  :00\n来源: https://www.ismworld.org/supply-management-news-and-reports/r
  eports/rob-report-calendar/\n预期：一致预期：54.7（前值54.5）
- \n预期来源: gov.house、Newsquawk、Wells Fargo 2026-11-02查\n预期
- 更新于 2026-11-02
+ ；物价支付指数预期77.2（前值77.9）。实际值将于北京时
+ 间11/2 23:00公布，本次更新(19:00)时尚未发布\n预期来源: TD
+  Economics/Bloomberg、Briefing.com、Followme 2026-11-02查\n预期更新
+ 于 2026-11-02
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ISM11月制造业PMI
@@ -386,16 +392,17 @@ DESCRIPTION:美东时间: 2026-12-01 10:00 ET\n北京时间: 2026-12-01 23
  eports/rob-report-calendar/\n预期：暂无（临近时更新）
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ISM10月服务业PMI（预期 54.7~54.8）
+SUMMARY:ISM10月服务业PMI（预期 54.8）
 DTSTART;TZID=Asia/Shanghai:20261104T230000
 DTEND;TZID=Asia/Shanghai:20261104T233000
 DTSTAMP:20261102T040000Z
 UID:isms-20261104@investing
 DESCRIPTION:美东时间: 2026-11-04 10:00 ET\n北京时间: 2026-11-04 23
  :00\n来源: https://www.ismworld.org/supply-management-news-and-reports/r
- eports/rob-report-calendar/\n预期：一致预期：54.7–54.8（前值5
- 4.9）\n预期来源: Newsquawk(54.7)、gov.house(54.8) 2026-11-02查\n预
- 期更新于 2026-11-02
+ eports/rob-report-calendar/\n预期：一致预期：54.8（前值54.9；
+ 各源54.7–54.9）\n预期来源: TD Economics/Bloomberg(54.8)、Briefin
+ g.com(Cons 54.8)、Newsquawk(54.7) 2026-11-02查\n预期更新于 2026-11-
+ 02
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ISM11月服务业PMI
@@ -495,10 +502,12 @@ DESCRIPTION:美东时间: 2026-12-09 14:00 ET\n北京时间: 2026-12-10 03
  :00\n会议为两天，第二天14:00 ET发布声明；附经济预测(SEP
  )\n来源: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
  \n预期：当前目标区间3.75%–4.00%（10/28维持不变，Cook、Ha
- mmack异议支持加息）。CME FedWatch：约74.6%概率加息25bp至4.0
- 0%–4.25%；Polymarket：加息70.9%/维持27.5%/降息0.9%\n预期来源
- : CME FedWatch(经AskClash缓存)、MacroOdds/Polymarket、Newsquawk 2026-
- 11-02查\n预期更新于 2026-11-02
+ mmack异议支持加息）。CME FedWatch：加息25bp至4.00%–4.25%概
+ 率约72%、维持28%；Investing.com Fed Rate Monitor（基于联邦基
+ 金期货，11/2 05:25 ET）：加息73.4%/维持26.6%；Polymarket：加
+ 息约71%\n预期来源: CME FedWatch(经CoinNess/FXBus 11/1–11/2转引)
+ 、Investing.com Fed Rate Monitor、MacroOdds/Polymarket 2026-11-02查\n
+ 预期更新于 2026-11-02
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:美联储主席新闻发布会(12月FOMC)
@@ -519,9 +528,9 @@ UID:fomc-stmt-20270127@investing
 DESCRIPTION:美东时间: 2027-01-27 14:00 ET\n北京时间: 2027-01-28 03
  :00\n会议为两天，第二天14:00 ET发布声明\n来源: https://www.
  federalreserve.gov/monetarypolicy/fomccalendars.htm\n预期：CME FedWatch
- ：最可能区间4.00%–4.25%（59.9%），隐含利率约4.14%\n预期
- 来源: CME FedWatch(经AskClash缓存) 2026-11-02查（远期）\n预期
- 更新于 2026-11-02
+ ：至1月累计加息25bp（4.00%–4.25%）58.4%、累计加息50bp 22.3
+ %、维持不变19.3%\n预期来源: CME FedWatch(经CoinNess/FXBus 11/1
+ –11/2转引) 2026-11-02查（远期）\n预期更新于 2026-11-02
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:美联储主席新闻发布会(1月FOMC)
@@ -710,6 +719,24 @@ DESCRIPTION:美东时间: 2026-11-17 16:20 ET\n北京时间: 2026-11-18 05
  A IR 2026-11-02查\n预期更新于 2026-11-02
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:博通财报 FY26Q4（盘后）（预期EPS ~$3.83–3.90）
+DTSTART;TZID=Asia/Shanghai:20261210T060000
+DTEND;TZID=Asia/Shanghai:20261210T070000
+DTSTAMP:20261102T040000Z
+UID:er-avgo-20261209@investing
+DESCRIPTION:美东时间: 2026-12-09 17:00 ET\n北京时间: 2026-12-10 06
+ :00\n公司已确认（IR负责人Ji Yoo于FQ3电话会宣布）：12/9美
+ 股盘后发布，电话会14:00 PT/17:00 ET（所示时间为电话会；
+ 新闻稿通常约16:15 ET）。原预计12/10，已更正\n来源: https:
+ //www.fool.com/earnings/call-transcripts/2026/09/09/broadcom-avgo-q3-2026-
+ earnings-call-transcript/ \; https://investors.broadcom.com\n预期：一
+ 致预期：营收约$349–356亿，调整后EPS约$3.82–3.90（Backpac
+ k/drillr $3.82–3.83；FXEmpire/hulicalendar $355.7亿/$3.90）；公司
+ 指引营收约$348亿、AI半导体营收$217亿\n预期来源: Backpack/
+ drillr/FXEmpire/hulicalendar、Broadcom IR 2026-11-02查\n预期更新于 
+ 2026-11-02
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:摩根大通财报 Q4（盘前）
 DTSTART;TZID=Asia/Shanghai:20270114T194500
 DTEND;TZID=Asia/Shanghai:20270114T213000
@@ -720,21 +747,6 @@ DESCRIPTION:美东时间: 2027-01-14 06:45 ET\n北京时间: 2027-01-14 19
  s://www.jpmorganchase.com/ir\n预期：一致预期：营收约$511亿，E
  PS约$5.89–5.91\n预期来源: Benzinga/Investing.com 2026-11-02查（
  远期，波动大）\n预期更新于 2026-11-02
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:(预计) 博通财报（盘后）（预期EPS ~$3.83）
-DTSTART;VALUE=DATE:20261210
-DTEND;VALUE=DATE:20261211
-DTSTAMP:20261102T040000Z
-UID:er-avgo-20261210@investing
-DESCRIPTION:公司尚未确认，日期为第三方财报日历预测，
- 可能变动。注意：美东盘后≈北京时间次日早晨\n来源: h
- ttps://afterns.com/en/calendar/monthly/2026-12 \; https://www.wallstreetho
- rizon.com\n预期：一致预期：营收约$349亿，调整后EPS约$3.82
- –3.83（FXEmpire: $355.7亿/$3.90）；公司指引营收$348亿\n预期
- 来源: Backpack/drillr/FXEmpire、Broadcom IR 2026-11-02查\n预期更新
- 于 2026-11-02
-TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(预计) 甲骨文财报（盘后）（预期EPS $1.89）
@@ -913,9 +925,9 @@ DESCRIPTION:美东时间: 每周四 08:30 ET（冬令时=北京21:30）\n
  美国劳工部(DOL)每周四08:30 ET发布；节假日可能调整\n感
  恩节周预计改为周三11/25\n来源: https://www.dol.gov/ui/data.pdf
  \n预期：11/5（截至10/31当周）一致预期：初请19.7万（前
- 值19.4万），续请170.4万（前值170.1万）——来源: gov.house 
- 2026-11-02查；之后各周：预期：暂无（临近时更新）\n预
- 期更新于 2026-11-02
+ 值19.4万），续请170.4万（前值170.1万）——来源: Briefing.c
+ om(Cons 197K)、gov.house 2026-11-02查；之后各周：预期：暂无
+ （临近时更新）\n预期更新于 2026-11-02
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:美国初请失业金人数

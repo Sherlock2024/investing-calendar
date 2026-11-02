@@ -50,8 +50,9 @@ for d,n in [((2026,11,27),"感恩节次日"),((2026,12,24),"平安夜")]:
 T("财报","er-aapl-20261102@investing","苹果财报 FY26Q4（盘后）",(2026,11,2),(16,30),"https://investor.apple.com/investor-relations/event-details/2026/FY-26-Fourth-Quarter-Results/default.aspx","公司已确认：财报16:30 ET发布，电话会17:00 ET",dur=60)
 T("财报","er-amd-20261103@investing","AMD财报 Q3（盘后）",(2026,11,3),(17,0),"https://ir.amd.com/news-events/ir-calendar/detail/20261103-amd-fiscal-third-quarter-2026-financial-results","公司已确认：盘后发布，电话会17:00 ET（所示时间为电话会）",dur=60)
 T("财报","er-nvda-20261117@investing","英伟达财报 FY27Q3（盘后）",(2026,11,17),(16,20),"https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx","公司已确认：约16:20 ET发布，电话会17:00 ET",dur=60)
+T("财报","er-avgo-20261209@investing","博通财报 FY26Q4（盘后）",(2026,12,9),(17,0),"https://www.fool.com/earnings/call-transcripts/2026/09/09/broadcom-avgo-q3-2026-earnings-call-transcript/ ; https://investors.broadcom.com","公司已确认（IR负责人Ji Yoo于FQ3电话会宣布）：12/9美股盘后发布，电话会14:00 PT/17:00 ET（所示时间为电话会；新闻稿通常约16:15 ET）。原预计12/10，已更正",dur=60)
 T("财报","er-jpm-20270114@investing","摩根大通财报 Q4（盘前）",(2027,1,14),(6,45),"https://www.jpmorganchase.com/ir","公司已确认：约06:45 ET发布，电话会08:30 ET",dur=105)
-for d,co,tm,code in [((2026,12,10),"博通","盘后","avgo"),((2026,12,14),"甲骨文","盘后","orcl"),((2026,12,23),"美光","盘后","mu"),((2027,1,14),"台积电","美股盘前","tsm"),((2027,1,14),"摩根士丹利","盘前","ms"),((2027,1,19),"高盛","盘前","gs"),((2027,1,19),"奈飞","盘后","nflx"),((2027,1,27),"微软","盘后","msft"),((2027,1,27),"特斯拉","盘后","tsla"),((2027,1,27),"Meta","盘后","meta"),((2027,1,28),"英特尔","盘后","intc"),((2027,2,3),"谷歌Alphabet","盘后","googl"),((2027,2,4),"亚马逊","盘后","amzn")]:
+for d,co,tm,code in [((2026,12,14),"甲骨文","盘后","orcl"),((2026,12,23),"美光","盘后","mu"),((2027,1,14),"台积电","美股盘前","tsm"),((2027,1,14),"摩根士丹利","盘前","ms"),((2027,1,19),"高盛","盘前","gs"),((2027,1,19),"奈飞","盘后","nflx"),((2027,1,27),"微软","盘后","msft"),((2027,1,27),"特斯拉","盘后","tsla"),((2027,1,27),"Meta","盘后","meta"),((2027,1,28),"英特尔","盘后","intc"),((2027,2,3),"谷歌Alphabet","盘后","googl"),((2027,2,4),"亚马逊","盘后","amzn")]:
     A("财报",f"er-{code}-%04d%02d%02d"%d+"@investing",f"(预计) {co}财报（{tm}）",d,AF+"%04d-%02d"%d[:2]+" ; https://www.wallstreethorizon.com","公司尚未确认，日期为第三方财报日历预测，可能变动。注意：美东盘后≈北京时间次日早晨")
 
 # ===== 市场预期数据（每日更新此处；uid -> (标题后缀, 预期说明, 来源)）=====
@@ -60,7 +61,7 @@ EXP={
 "er-aapl-20261102@investing":("（预期EPS $1.99/营收$1134亿）","一致预期：营收约$1133–1134亿（+10.6% YoY），EPS $1.98–1.99；公司指引FQ4营收同比+9%~11%","MarketBeat/TipRanks/AlphaStreet(27位分析师) 2026-11-02查"),
 "er-amd-20261103@investing":("（预期EPS $1.95/营收$131亿）","一致预期：营收约$130.9亿（+41.6% YoY），调整后EPS $1.95；公司指引营收$130亿±3亿，毛利率约56%；Zacks预计数据中心约$82.7亿","MarketBeat/TipRanks/TradingKey 2026-11-02查（FXEmpire: $132.2亿/$1.96）"),
 "er-nvda-20261117@investing":("（预期EPS ~$2.5/营收~$1100亿）","一致预期：营收$1088–1114亿，EPS $2.47–2.53（各源不同）；公司指引营收$1080亿±2%，毛利率74%±0.5pt","MarketBeat($108.8B/$2.47)、FXEmpire/hulicalendar($111.36B/$2.52–2.53)、NVIDIA IR 2026-11-02查"),
-"er-avgo-20261210@investing":("（预期EPS ~$3.83）","一致预期：营收约$349亿，调整后EPS约$3.82–3.83（FXEmpire: $355.7亿/$3.90）；公司指引营收$348亿","Backpack/drillr/FXEmpire、Broadcom IR 2026-11-02查"),
+"er-avgo-20261209@investing":("（预期EPS ~$3.83–3.90）","一致预期：营收约$349–356亿，调整后EPS约$3.82–3.90（Backpack/drillr $3.82–3.83；FXEmpire/hulicalendar $355.7亿/$3.90）；公司指引营收约$348亿、AI半导体营收$217亿","Backpack/drillr/FXEmpire/hulicalendar、Broadcom IR 2026-11-02查"),
 "er-orcl-20261214@investing":("（预期EPS $1.89）","一致预期：营收约$213.3亿，调整后EPS $1.89；公司指引EPS $1.85–1.93，营收同比+30%~34%","Backpack/TipRanks、CNBC(2026-09-10) 2026-11-02查"),
 "er-mu-20261223@investing":("（预期EPS ~$38.2）","一致预期：营收约$615–617亿，EPS约$38.20–38.29；公司指引营收$615亿±15亿，EPS $38.15±1.00","micronstock.com/Theta Research、Micron IR 2026-11-02查"),
 "er-jpm-20270114@investing":("","一致预期：营收约$511亿，EPS约$5.89–5.91","Benzinga/Investing.com 2026-11-02查（远期，波动大）"),
@@ -73,16 +74,16 @@ EXP={
 "er-googl-20270203@investing":("","一致预期：营收约$1424亿，EPS约$3.21","Yahoo Finance 2026-11-02查"),
 "er-amzn-20270204@investing":("","一致预期：营收约$2443亿，EPS约$2.44","Yahoo Finance 2026-11-02查"),
 "er-tsm-20270114@investing":("","公司指引Q4营收$523–543亿；EPS一致预期暂无可靠来源","SharpeIQ引述TSMC指引 2026-11-02查"),
-"fomc-stmt-20261209@investing":("（市场押注加息25bp）","当前目标区间3.75%–4.00%（10/28维持不变，Cook、Hammack异议支持加息）。CME FedWatch：约74.6%概率加息25bp至4.00%–4.25%；Polymarket：加息70.9%/维持27.5%/降息0.9%","CME FedWatch(经AskClash缓存)、MacroOdds/Polymarket、Newsquawk 2026-11-02查"),
-"fomc-stmt-20270127@investing":("","CME FedWatch：最可能区间4.00%–4.25%（59.9%），隐含利率约4.14%","CME FedWatch(经AskClash缓存) 2026-11-02查（远期）"),
+"fomc-stmt-20261209@investing":("（市场押注加息25bp）","当前目标区间3.75%–4.00%（10/28维持不变，Cook、Hammack异议支持加息）。CME FedWatch：加息25bp至4.00%–4.25%概率约72%、维持28%；Investing.com Fed Rate Monitor（基于联邦基金期货，11/2 05:25 ET）：加息73.4%/维持26.6%；Polymarket：加息约71%","CME FedWatch(经CoinNess/FXBus 11/1–11/2转引)、Investing.com Fed Rate Monitor、MacroOdds/Polymarket 2026-11-02查"),
+"fomc-stmt-20270127@investing":("","CME FedWatch：至1月累计加息25bp（4.00%–4.25%）58.4%、累计加息50bp 22.3%、维持不变19.3%","CME FedWatch(经CoinNess/FXBus 11/1–11/2转引) 2026-11-02查（远期）"),
 "fomc-stmt-20270317@investing":("","CME FedWatch：最可能区间4.25%–4.50%（43.5%），隐含利率约4.28%","CME FedWatch(经AskClash缓存) 2026-11-02查（远期）"),
-"nfp-20261106@investing":("（预期 +5.5~6.5万）","一致预期：非农+5.5万（Newsquawk）~+6.5万（Bloomberg/gov.house）；前值+2.9万。失业率4.2%（前值4.2%）；平均时薪环比+0.3%（前值+0.1%），同比2.9%–3.0%","Newsquawk(10/30)、gov.house、Wells Fargo周报(10/30) 2026-11-02查"),
-"jolts-20261103@investing":("（预期 710万）","一致预期：9月职位空缺约710万（前值708万）","gov.house/Newsquawk 2026-11-02查"),
-"ismm-20261102@investing":("（预期 54.7）","一致预期：54.7（前值54.5）","gov.house、Newsquawk、Wells Fargo 2026-11-02查"),
-"isms-20261104@investing":("（预期 54.7~54.8）","一致预期：54.7–54.8（前值54.9）","Newsquawk(54.7)、gov.house(54.8) 2026-11-02查"),
-"cpi-20261110@investing":("","尚无正式一致预期；克利夫兰联储Nowcast：10月CPI环比0.24%/同比3.74%，核心环比0.21%/同比2.48%；TD预测环比0.30%、核心0.21%（前值同比3.7%）","Cleveland Fed Inflation Nowcasting、Prediction.com引TD 2026-11-02查"),
+"nfp-20261106@investing":("（预期 +6.5万）","一致预期：非农+6.5万（Bloomberg/TD汇总），各机构区间+4.2万（RBC）~+6.5万，KPMG +4.5万，Newsquawk +5.5万；Kalshi市场中位数约+6万；前值+2.9万。失业率4.2%（前值4.2%，Kalshi中位4.1%）；平均时薪环比+0.3%（前值+0.1%），同比约2.9%","TD Economics/Bloomberg(10/30)、CiVL汇总(RBC/KPMG)、Newsquawk、Kalshi(PredictionScout 11/1) 2026-11-02查"),
+"jolts-20261103@investing":("（预期 710万）","一致预期：9月职位空缺710–711万（前值707.9万）","Briefing.com(Cons 7.100M)、FXStreet/Followme(7.110M)、Newsquawk 2026-11-02查"),
+"ismm-20261102@investing":("（预期 54.7）","一致预期：54.7（前值54.5）；物价支付指数预期77.2（前值77.9）。实际值将于北京时间11/2 23:00公布，本次更新(19:00)时尚未发布","TD Economics/Bloomberg、Briefing.com、Followme 2026-11-02查"),
+"isms-20261104@investing":("（预期 54.8）","一致预期：54.8（前值54.9；各源54.7–54.9）","TD Economics/Bloomberg(54.8)、Briefing.com(Cons 54.8)、Newsquawk(54.7) 2026-11-02查"),
+"cpi-20261110@investing":("","尚无正式一致预期；克利夫兰联储Nowcast：10月CPI环比0.24%/同比3.74%，核心环比0.21%/同比2.48%；TD预测环比0.30%、核心0.21%；Kalshi隐含环比约0.28%（前值环比0.6%/同比3.7%）","Cleveland Fed Inflation Nowcasting(10/30)、Prediction.com引TD、Nowflation(Kalshi) 2026-11-02查"),
 }
-CLAIMS_EXP="11/5（截至10/31当周）一致预期：初请19.7万（前值19.4万），续请170.4万（前值170.1万）——来源: gov.house 2026-11-02查；之后各周：预期：暂无（临近时更新）"
+CLAIMS_EXP="11/5（截至10/31当周）一致预期：初请19.7万（前值19.4万），续请170.4万（前值170.1万）——来源: Briefing.com(Cons 197K)、gov.house 2026-11-02查；之后各周：预期：暂无（临近时更新）"
 def addexp(uid,title,desc,cat):
     if uid in EXP:
         suf,txt,src=EXP[uid]
