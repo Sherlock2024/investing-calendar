@@ -57,10 +57,12 @@ for d,co,tm,code in [((2026,12,14),"甲骨文","盘后","orcl"),((2026,12,23),"�
 
 # ===== 市场预期数据（每日更新此处；uid -> (标题后缀, 预期说明, 来源)）=====
 EXP_DATE="2026-11-02"
+EXP_NEW="2026-11-03"
+REFRESHED={"er-amd-20261103@investing","ismm-20261102@investing","jolts-20261103@investing","isms-20261104@investing","nfp-20261106@investing","cpi-20261110@investing","fomc-stmt-20261209@investing","fomc-stmt-20270127@investing","fomc-stmt-20270317@investing","er-nvda-20261117@investing"}
 EXP={
 "er-aapl-20261102@investing":("（预期EPS $1.99/营收$1134亿）","一致预期：营收约$1133–1134亿（+10.6% YoY），EPS $1.98–1.99；公司指引FQ4营收同比+9%~11%","MarketBeat/TipRanks/AlphaStreet(27位分析师) 2026-11-02查"),
-"er-amd-20261103@investing":("（预期EPS $1.95/营收$131亿）","一致预期：营收约$130.9亿（+41.6% YoY），调整后EPS $1.95；公司指引营收$130亿±3亿，毛利率约56%；Zacks预计数据中心约$82.7亿","MarketBeat/TipRanks/TradingKey 2026-11-02查（FXEmpire: $132.2亿/$1.96）"),
-"er-nvda-20261117@investing":("（预期EPS ~$2.5/营收~$1100亿）","一致预期：营收$1088–1114亿，EPS $2.47–2.53（各源不同）；公司指引营收$1080亿±2%，毛利率74%±0.5pt","MarketBeat($108.8B/$2.47)、FXEmpire/hulicalendar($111.36B/$2.52–2.53)、NVIDIA IR 2026-11-02查"),
+"er-amd-20261103@investing":("（预期EPS $1.95/营收$131亿）","一致预期：营收约$131.0亿（+41.6% YoY），调整后EPS $1.95（各源$1.94–1.95；分析师区间EPS $1.73–2.11、营收$129.5–135.5亿）；公司指引营收$130亿±3亿，Q4毛利率指引约55.7%；Zacks预计数据中心约$82.7亿；期权隐含财报日波动约±8.95%","MarketBeat、Backpack(27位分析师)、TipRanks、Yahoo Finance/Zacks、FactSheets 2026-11-03查"),
+"er-nvda-20261117@investing":("（预期EPS ~$2.5/营收~$1100亿）","一致预期：营收$1088–1114亿，EPS $2.47–2.53（各源不同）；公司指引营收$1080亿±2%，毛利率74%±0.5pt","MarketBeat($108.8B/$2.47)、TipRanks、hulicalendar($111.36B/$2.53)、NVIDIA IR 2026-11-03查"),
 "er-avgo-20261209@investing":("（预期EPS ~$3.83–3.90）","一致预期：营收约$349–356亿，调整后EPS约$3.82–3.90（Backpack/drillr $3.82–3.83；FXEmpire/hulicalendar $355.7亿/$3.90）；公司指引营收约$348亿、AI半导体营收$217亿","Backpack/drillr/FXEmpire/hulicalendar、Broadcom IR 2026-11-02查"),
 "er-orcl-20261214@investing":("（预期EPS $1.89）","一致预期：营收约$213.3亿，调整后EPS $1.89；公司指引EPS $1.85–1.93，营收同比+30%~34%","Backpack/TipRanks、CNBC(2026-09-10) 2026-11-02查"),
 "er-mu-20261223@investing":("（预期EPS ~$38.2）","一致预期：营收约$615–617亿，EPS约$38.20–38.29；公司指引营收$615亿±15亿，EPS $38.15±1.00","micronstock.com/Theta Research、Micron IR 2026-11-02查"),
@@ -74,26 +76,26 @@ EXP={
 "er-googl-20270203@investing":("","一致预期：营收约$1424亿，EPS约$3.21","Yahoo Finance 2026-11-02查"),
 "er-amzn-20270204@investing":("","一致预期：营收约$2443亿，EPS约$2.44","Yahoo Finance 2026-11-02查"),
 "er-tsm-20270114@investing":("","公司指引Q4营收$523–543亿；EPS一致预期暂无可靠来源","SharpeIQ引述TSMC指引 2026-11-02查"),
-"fomc-stmt-20261209@investing":("（市场押注加息25bp）","当前目标区间3.75%–4.00%（10/28维持不变，Cook、Hammack异议支持加息）。CME FedWatch：加息25bp至4.00%–4.25%概率约72%、维持28%；Investing.com Fed Rate Monitor（基于联邦基金期货，11/2 05:25 ET）：加息73.4%/维持26.6%；Polymarket：加息约71%","CME FedWatch(经CoinNess/FXBus 11/1–11/2转引)、Investing.com Fed Rate Monitor、MacroOdds/Polymarket 2026-11-02查"),
-"fomc-stmt-20270127@investing":("","CME FedWatch：至1月累计加息25bp（4.00%–4.25%）58.4%、累计加息50bp 22.3%、维持不变19.3%","CME FedWatch(经CoinNess/FXBus 11/1–11/2转引) 2026-11-02查（远期）"),
-"fomc-stmt-20270317@investing":("","CME FedWatch：最可能区间4.25%–4.50%（43.5%），隐含利率约4.28%","CME FedWatch(经AskClash缓存) 2026-11-02查（远期）"),
-"nfp-20261106@investing":("（预期 +6.5万）","一致预期：非农+6.5万（Bloomberg/TD汇总），各机构区间+4.2万（RBC）~+6.5万，KPMG +4.5万，Newsquawk +5.5万；Kalshi市场中位数约+6万；前值+2.9万。失业率4.2%（前值4.2%，Kalshi中位4.1%）；平均时薪环比+0.3%（前值+0.1%），同比约2.9%","TD Economics/Bloomberg(10/30)、CiVL汇总(RBC/KPMG)、Newsquawk、Kalshi(PredictionScout 11/1) 2026-11-02查"),
-"jolts-20261103@investing":("（预期 710万）","一致预期：9月职位空缺710–711万（前值707.9万）","Briefing.com(Cons 7.100M)、FXStreet/Followme(7.110M)、Newsquawk 2026-11-02查"),
-"ismm-20261102@investing":("（预期 54.7）","一致预期：54.7（前值54.5）；物价支付指数预期77.2（前值77.9）。实际值将于北京时间11/2 23:00公布，本次更新(19:00)时尚未发布","TD Economics/Bloomberg、Briefing.com、Followme 2026-11-02查"),
-"isms-20261104@investing":("（预期 54.8）","一致预期：54.8（前值54.9；各源54.7–54.9）","TD Economics/Bloomberg(54.8)、Briefing.com(Cons 54.8)、Newsquawk(54.7) 2026-11-02查"),
-"cpi-20261110@investing":("","尚无正式一致预期；克利夫兰联储Nowcast：10月CPI环比0.24%/同比3.74%，核心环比0.21%/同比2.48%；TD预测环比0.30%、核心0.21%；Kalshi隐含环比约0.28%（前值环比0.6%/同比3.7%）","Cleveland Fed Inflation Nowcasting(10/30)、Prediction.com引TD、Nowflation(Kalshi) 2026-11-02查"),
+"fomc-stmt-20261209@investing":("（市场押注加息25bp）","当前目标区间3.75%–4.00%（10/28以10-2投票维持不变，Cook、Hammack异议支持加息）。CME FedWatch（11/3 06:05北京时间转引）：加息25bp至4.00%–4.25%概率74.9%、维持25.1%；CNBC转引约76%；Fisclear(基于CME 30天联邦基金期货)82%、FinBoss约79%。圣路易斯联储Musalem称“需尽快进一步加息”，达拉斯联储Logan称至少还需加息两次各25bp","CME FedWatch(经汇通财经fx678 11/3转引)、CNBC/ONSWM(11/3)、Fisclear、FinBoss 2026-11-03查"),
+"fomc-stmt-20270127@investing":("","CME FedWatch（11/3转引）：至1月累计加息25bp（4.00%–4.25%）61.2%、累计加息50bp 20.7%、维持不变18.2%（累计至少加息25bp约81.8%）","CME FedWatch(经汇通财经fx678 11/3转引) 2026-11-03查（远期）"),
+"fomc-stmt-20270317@investing":("","市场隐含3月会后利率约4.28%（Fisclear），最可能区间4.25%–4.50%（FinBoss约60%，4.00%–4.25%约40%）","Fisclear、FinBoss(基于CME联邦基金期货) 2026-11-03查（远期）"),
+"nfp-20261106@investing":("（预期 +6.5万）","一致预期：非农+6.5万（Bloomberg/gov.house汇总；Seeking Alpha称约+6万），各机构：RBC +4.2万、KPMG +4.5万、Continuum +5万、Pantheon +10万（高于共识）；前值+2.9万。失业率预期4.2%（前值4.2%）；平均时薪环比预期+0.3%（前值+0.1%），同比预期2.9%（前值3.0%）。Kalshi约50%概率超过+6万","gov.house/licensed consensus、Helious、CiVL(RBC/KPMG)、Continuum Economics、Seeking Alpha(Pantheon 11/2)、RateSpike 2026-11-03查"),
+"jolts-20261103@investing":("（预期 713万）","一致预期：9月职位空缺713万（gov.house模型710万，80%区间668–751万；前值707.9万）；离职人数预期305万（前值306.6万）。北京时间今晚23:00公布，本次更新(19:00)时尚未发布","gov.house/licensed consensus、Sigmanomics 2026-11-03查"),
+"ismm-20261102@investing":("（实际55.5/预期54.6）","已公布：10月制造业PMI 55.5（一致预期54.6，前值54.5），连续第10个月扩张；价格支付指数75.2（预期77.0，前值77.9）；就业52.4（预期53.0）；新订单55.5","Sigmanomics经济日历、FXStreet 2026-11-03查"),
+"isms-20261104@investing":("（预期 54.8）","一致预期：54.8（前值54.9；各源54.5–55.0，Continuum 55.0）；价格支付预期75（前值74.0）；就业预期50（前值50.1）","gov.house/licensed consensus、Sigmanomics、Continuum Economics 2026-11-03查"),
+"cpi-20261110@investing":("（预期环比+0.2~0.3%）","暂无统一的权威共识。10月CPI环比：Continuum预测+0.2%（0.24%）、TD预测+0.30%、克利夫兰联储Nowcast +0.24%、Kalshi隐含约+0.28%；核心CPI环比：Continuum +0.2%（0.22%）、TD +0.21%、克利夫兰联储 +0.21%。同比：克利夫兰联储Nowcast 3.74%（核心2.48%）、Nowflation预测3.82%。前值：环比+0.6%/同比3.7%，核心环比+0.3%","Continuum Economics、Prediction.com(引TD/Kalshi)、Cleveland Fed Nowcasting(11/2)、Nowflation、Polymarket 2026-11-03查"),
 }
-CLAIMS_EXP="11/5（截至10/31当周）一致预期：初请19.7万（前值19.4万），续请170.4万（前值170.1万）——来源: Briefing.com(Cons 197K)、gov.house 2026-11-02查；之后各周：预期：暂无（临近时更新）"
+CLAIMS_EXP="11/5（截至10/31当周）一致预期：初请19.5万（gov.house模型19.5万，80%区间18.3–20.7万；前值19.4万），续请171.0万（前值170.1万）——来源: gov.house/licensed consensus 2026-11-03查；之后各周：预期：暂无（临近时更新）"
 def addexp(uid,title,desc,cat):
     if uid in EXP:
         suf,txt,src=EXP[uid]
-        return title+suf, desc+f"\n预期：{txt}\n预期来源: {src}\n预期更新于 {EXP_DATE}"
+        return title+suf, desc+f"\n预期：{txt}\n预期来源: {src}\n预期更新于 {EXP_NEW if uid in REFRESHED else EXP_DATE}"
     if cat in("宏观","财报") or uid.startswith("fomc-stmt"):
         return title, desc+"\n预期：暂无（临近时更新）"
     return title,desc
 cal=Calendar(); cal.add("prodid","-//Investing//sherlock//CN"); cal.add("version","2.0"); cal.add("calscale","GREGORIAN")
 cal.add("x-wr-calname","Investing"); cal.add("x-wr-timezone","Asia/Shanghai")
-stamp=datetime(2026,11,2,4,0,tzinfo=ZoneInfo("UTC"))
+stamp=datetime(2026,11,3,10,50,tzinfo=ZoneInfo("UTC"))
 def mk(uid,title,s,e,desc,allday):
     x=Event(); x.add("uid",uid); x.add("dtstamp",stamp); x.add("summary",title); x.add("dtstart",s); x.add("dtend",e); x.add("description",desc)
     if allday: x.add("transp","TRANSPARENT")
@@ -102,7 +104,7 @@ for c,u,t,s,e,d,a in ev:
     t,d=addexp(u,t,d,c); cal.add_component(mk(u,t,s,e,d,a))
 # jobless claims
 cn="美国劳工部(DOL)每周四08:30 ET发布；节假日可能调整"
-x=mk("claims-weekly-est@investing","美国初请失业金人数",datetime(2026,11,5,21,30,tzinfo=SH),datetime(2026,11,5,22,0,tzinfo=SH),"美东时间: 每周四 08:30 ET（冬令时=北京21:30）\n"+cn+"\n感恩节周预计改为周三11/25\n来源: "+DOL+"\n预期："+CLAIMS_EXP+"\n预期更新于 "+EXP_DATE,False)
+x=mk("claims-weekly-est@investing","美国初请失业金人数",datetime(2026,11,5,21,30,tzinfo=SH),datetime(2026,11,5,22,0,tzinfo=SH),"美东时间: 每周四 08:30 ET（冬令时=北京21:30）\n"+cn+"\n感恩节周预计改为周三11/25\n来源: "+DOL+"\n预期："+CLAIMS_EXP+"\n预期更新于 "+EXP_NEW,False)
 x.add("rrule",{"freq":"weekly","byday":"TH","until":datetime(2027,3,11,13,30,tzinfo=ZoneInfo("UTC"))}); x.add("exdate",datetime(2026,11,26,21,30,tzinfo=SH)); cal.add_component(x)
 x=mk("claims-weekly-edt@investing","美国初请失业金人数",datetime(2027,3,18,20,30,tzinfo=SH),datetime(2027,3,18,21,0,tzinfo=SH),"美东时间: 每周四 08:30 ET（夏令时=北京20:30）\n"+cn+"\n来源: "+DOL,False)
 x.add("rrule",{"freq":"weekly","byday":"TH","until":datetime(2027,3,25,12,30,tzinfo=ZoneInfo("UTC"))}); cal.add_component(x)
