@@ -31,27 +31,21 @@ TZOFFSETTO:+0800
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-SUMMARY:美国10月CPI（预期环比约+0.3%/核心约+0.2%）
+SUMMARY:美国10月CPI（实际环比+0.4%/核心+0.3%；预期+0.3%/+0.2%
+ ）
 DTSTART;TZID=Asia/Shanghai:20261110T213000
 DTEND;TZID=Asia/Shanghai:20261110T220000
 DTSTAMP:20261109T110000Z
 UID:cpi-20261110@investing
 DESCRIPTION:美东时间: 2026-11-10 08:30 ET\n北京时间: 2026-11-10 21
- :30\n来源: https://www.bls.gov/schedule/2026/home.htm\n预期：一致
- 预期：Bloomberg经济学家调查中位数为整体CPI环比+0.3%（9
- 月实际+0.6%）、核心环比+0.2%（三个月最小增幅；9月+0.3%
- ）。FactSet共识为整体环比+0.24%、核心+0.2%。Bloomberg Economi
- cs（Anna Wong等）预计整体+0.25%、核心+0.24%。克利夫兰联储
- Nowcast（11/6更新，周末无新值）：环比+0.24%/核心+0.21%；
- 同比模型估计3.74%/核心2.48%。注意：BLS因2025年10月停摆未
- 采集价格，本次不公布同比官方数字。另：Continuum约整
- 体+0.24%/核心+0.22%，TD约整体+0.30%；RBC整体/核心均+0.3%，Bo
- fA整体+0.4%/核心+0.3%（11/9 TradingKey转引）；区间整体+0.24%~
- +0.4%、核心+0.2%~+0.3%。前值：9月环比+0.6%/同比3.7%，核心
- 环比+0.3%/同比2.6%。11/10 21:30北京时间公布\n预期来源: Bloo
- mberg(经Business Standard 11/8)、Morningstar引FactSet(11/6)、Cleveland
-  Fed Nowcasting(11/6)、TD Economics 2026-11-08查\n预期更新于 2026-1
- 1-09
+ :30\n来源: https://www.bls.gov/schedule/2026/home.htm\n预期：已公
+ 布（11/10 08:30 ET）：10月CPI环比+0.4%（Dow Jones/Reuters预期+0.
+ 3%；9月+0.6%），连续第三个月涨幅≥0.4%；核心CPI环比+0.3%
+ （预期+0.2%；9月+0.3%），连续第三个月+0.3%。BLS因2025年10
+ 月停摆无同比官方数字；Reuters引经济学家估计核心同比
+ 约2.8%（9月2.6%）。数据高于预期，推升12月加息预期\n预
+ 期来源: CNBC、Reuters/Investing.com 2026-11-11查\n预期更新于 202
+ 6-11-11
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:美国11月CPI
@@ -104,11 +98,14 @@ DESCRIPTION:美东时间: 2026-11-13 08:30 ET\n北京时间: 2026-11-13 21
  预期：最终需求PPI环比约+0.4%（TD Economics/Bloomberg、Investin
  g.com/Econvitals/MarketScreener等；前值实际+1.3%）。核心PPI环
  比预期约+0.3%（9月约+0.7%；gov.house核心同比约4.9%，前值5.
- 0%）。Bloomberg（11/8）预计整体同比升至约6.6%（近四年最
- 陡；此前Continuum估约6.7%，前值6.3%）。11/13 21:30北京时间
- 公布\n预期来源: TD Economics、Bloomberg(经Business Standard 11/8)
- 、gov.house、Investing.com、Econvitals、MarketScreener、Continuum 202
- 6-11-08查\n预期更新于 2026-11-08
+ 0%）。WSJ调查（11/9更新，20位经济学家）整体环比+0.4%、
+ 核心+0.3%、剔除食品能源及贸易+0.3%，同比整体约+6.6%；
+ 高盛预计+0.3%/+0.2%；Briefing.com共识+0.4%/+0.3%。Bloomberg（11/8
+ ）预计整体同比升至约6.6%（近四年最陡；此前Continuum估
+ 约6.7%，前值6.3%）。11/13 21:30北京时间公布\n预期来源: TD 
+ Economics、Bloomberg(经Business Standard 11/8)、gov.house、Investing.c
+ om、Econvitals、MarketScreener、Continuum 2026-11-11查\n预期更新
+ 于 2026-11-11
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:美国11月PPI
@@ -534,8 +531,8 @@ DESCRIPTION:ISM尚未公布2027年日程；按ISM规则（制造业=每月
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FOMC12月利率决议/声明（市场押注加息25bp，概率约7
- 6.8%）
+SUMMARY:FOMC12月利率决议/声明（市场押注加息25bp，概率约8
+ 8.8%；另有11.2%押注50bp）
 DTSTART;TZID=Asia/Shanghai:20261210T030000
 DTEND;TZID=Asia/Shanghai:20261210T033000
 DTSTAMP:20261109T110000Z
@@ -544,16 +541,13 @@ DESCRIPTION:美东时间: 2026-12-09 14:00 ET\n北京时间: 2026-12-10 03
  :00\n会议为两天，第二天14:00 ET发布声明；附经济预测(SEP
  )\n来源: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
  \n预期：当前目标区间3.75%–4.00%（10/28以10-2投票维持不
- 变）。强劲非农后，CME FedWatch（11/6约15:20 GMT，The Edge转
- 引）：12月加息25bp至4.00%–4.25%概率76.8%、维持不变23.2%、
- 50bp加息0%；较11/5的66.9%/33.1%回升约10pt，亦高于非农前约6
- 7%。CNBC同日引CME约76.8%；Reuters称盘后约78%（曾冲至约85%
- 后回落）。FinBoss（11/7自算、延迟期货）约77%/23%。最新
- （11/9）：Morningstar引CME FedWatch约80%加息25bp（非农前约67%
- ）、CNBC 11/9约79%、Kalshi合约约77美分。概率加权隐含加息
- 约19bp；降息概率约0%。市场重新将12月加息作为基准情形
- \n预期来源: CME FedWatch(经The Edge/CNBC 11/6)、Reuters、FinBoss 20
- 26-11-07查\n预期更新于 2026-11-09
+ 变）。热CPI后，CME FedWatch（11/10–11/11）：12月加息25bp至4
+ .00%–4.25%概率约88.8%、加息50bp至4.25%–4.50%约11.2%、维持
+ 不变0%（Cboe引FedWatch为90.5%/9.5%；盘中曾短暂更高）；一
+ 周前约72–77%。1月再加25bp概率升至约59.7%（周一19.3%）。
+ 理事Waller主张12月加息；此前若核心CPI达0.3%可支持50bp。1
+ 2/9 14:00 ET公布\n预期来源: Investing.com(CME FedWatch)、Cboe、FXS
+ treet、Investing.com分析 2026-11-11查\n预期更新于 2026-11-11
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:美联储主席新闻发布会(12月FOMC)
@@ -992,7 +986,9 @@ DESCRIPTION:美东时间: 每周四 08:30 ET（冬令时=北京21:30）\n
  .0万）——Bloomberg Law/Investing.com/gov.house。11/12（截至11/7
  当周）一致预期：初请约19.5万（前值18.9万）；续请约172
  .2万（前值171.8万）——来源: TD Economics/Bloomberg、Helious、
- FX Blue、Makkler、gov.house 2026-11-08查\n预期更新于 2026-11-09
+ FX Blue、Makkler、gov.house 2026-11-11查（WSJ调查初请195K，Optenc
+ is 194K，gov.house模型191K，Briefing.com预测190K）\n预期更新于
+  2026-11-11
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:美国初请失业金人数

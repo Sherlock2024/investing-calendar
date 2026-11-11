@@ -57,7 +57,7 @@ for d,co,tm,code in [((2026,12,14),"甲骨文","盘后","orcl"),((2026,12,23),"�
 
 # ===== 市场预期数据（每日更新此处；uid -> (标题后缀, 预期说明, 来源)）=====
 EXP_DATE="2026-11-03"
-EXP_NEW="2026-11-09"
+EXP_NEW="2026-11-11"
 # uid -> last expectation refresh date (overrides EXP_DATE/EXP_NEW when present)
 EXP_UPDATED={
 "er-aapl-20261102@investing":"2026-11-04",
@@ -79,11 +79,11 @@ EXP_UPDATED={
 "er-amzn-20270204@investing":"2026-11-02",
 "er-tsm-20270114@investing":"2026-11-02",
 "nfp-20261106@investing":"2026-11-07",
-"cpi-20261110@investing":"2026-11-09",
-"ppi-20261113@investing":"2026-11-08",
+"cpi-20261110@investing":"2026-11-11",
+"ppi-20261113@investing":"2026-11-11",
 "pce-20261125@investing":"2026-11-08",
 "gdp-20261125@investing":"2026-11-08",
-"fomc-stmt-20261209@investing":"2026-11-09",
+"fomc-stmt-20261209@investing":"2026-11-11",
 "fomc-stmt-20270127@investing":"2026-11-07",
 "fomc-stmt-20270317@investing":"2026-11-07",
 "er-nvda-20261117@investing":"2026-11-09",
@@ -91,7 +91,7 @@ EXP_UPDATED={
 REFRESHED=set(k for k,v in EXP_UPDATED.items() if v==EXP_NEW)
 EXP={
 "er-aapl-20261102@investing":("（实际EPS $2.10/营收$1144.8亿；预期$1.99/$1134亿）","已公布：FQ4营收$1144.8亿（+12% YoY，高于一致预期约$1134亿）、EPS $2.10（+14% YoY，高于一致预期$1.99）；iPhone销售强劲但大中华区营收低于预期。赛前一致预期：营收约$1133–1134亿，EPS $1.98–1.99","Apple Newsroom、MarketBeat、Investing.com、Yahoo Finance 2026-11-04查"),
-"ppi-20261113@investing":("（预期环比+0.4%）","一致预期：最终需求PPI环比约+0.4%（TD Economics/Bloomberg、Investing.com/Econvitals/MarketScreener等；前值实际+1.3%）。核心PPI环比预期约+0.3%（9月约+0.7%；gov.house核心同比约4.9%，前值5.0%）。Bloomberg（11/8）预计整体同比升至约6.6%（近四年最陡；此前Continuum估约6.7%，前值6.3%）。11/13 21:30北京时间公布","TD Economics、Bloomberg(经Business Standard 11/8)、gov.house、Investing.com、Econvitals、MarketScreener、Continuum 2026-11-08查"),
+"ppi-20261113@investing":("（预期环比+0.4%）","一致预期：最终需求PPI环比约+0.4%（TD Economics/Bloomberg、Investing.com/Econvitals/MarketScreener等；前值实际+1.3%）。核心PPI环比预期约+0.3%（9月约+0.7%；gov.house核心同比约4.9%，前值5.0%）。WSJ调查（11/9更新，20位经济学家）整体环比+0.4%、核心+0.3%、剔除食品能源及贸易+0.3%，同比整体约+6.6%；高盛预计+0.3%/+0.2%；Briefing.com共识+0.4%/+0.3%。Bloomberg（11/8）预计整体同比升至约6.6%（近四年最陡；此前Continuum估约6.7%，前值6.3%）。11/13 21:30北京时间公布","TD Economics、Bloomberg(经Business Standard 11/8)、gov.house、Investing.com、Econvitals、MarketScreener、Continuum 2026-11-11查"),
 "er-amd-20261103@investing":("（实际EPS $2.09/营收$133.8亿；预期$1.95/$130.9亿）","已公布（11/3盘后）：Q3营收$133.77亿（+45% YoY，一致预期约$130.6–130.9亿），调整后EPS $2.09（+74% YoY，一致预期$1.94–1.95），GAAP EPS $1.46；数据中心营收创纪录$85亿（+97%，预期$82亿）；Q4指引营收约$170亿±3%（分析师预期$162.3亿），非GAAP毛利率约55%；CEO称2027年营收增长超80%（分析师预期77%）；财报后盘后股价约+8%","AMD IR新闻稿、CNBC(LSEG)、Reuters/Investing.com 2026-11-04查"),
 "er-nvda-20261117@investing":("（预期EPS ~$2.47/营收~$1088亿）","一致预期基本持平：营收约$1088亿（MarketBeat/Investing.com约$108.8亿；The Right Trader 45位分析师$109.0亿），调整后EPS约$2.47（The Right Trader 13位分析师$2.49；区间$2.34–2.70）；公司指引营收$1080亿±2%（约$1058–1102亿），毛利率74%±0.5pt。11/17盘后约16:20 ET发布，电话会17:00 ET","MarketBeat、Backpack、FN2、NVIDIA IR 2026-11-07查"),
 "er-avgo-20261209@investing":("（预期EPS ~$3.83–3.90）","一致预期：营收约$349–356亿，调整后EPS约$3.82–3.90（Backpack/drillr $3.82–3.83；FXEmpire/hulicalendar $355.7亿/$3.90）；公司指引营收约$348亿、AI半导体营收$217亿","Backpack/drillr/FXEmpire/hulicalendar、Broadcom IR 2026-11-02查"),
@@ -107,18 +107,18 @@ EXP={
 "er-googl-20270203@investing":("","一致预期：营收约$1424亿，EPS约$3.21","Yahoo Finance 2026-11-02查"),
 "er-amzn-20270204@investing":("","一致预期：营收约$2443亿，EPS约$2.44","Yahoo Finance 2026-11-02查"),
 "er-tsm-20270114@investing":("","公司指引Q4营收$523–543亿；EPS一致预期暂无可靠来源","SharpeIQ引述TSMC指引 2026-11-02查"),
-"fomc-stmt-20261209@investing":("（市场押注加息25bp，概率约76.8%）","当前目标区间3.75%–4.00%（10/28以10-2投票维持不变）。强劲非农后，CME FedWatch（11/6约15:20 GMT，The Edge转引）：12月加息25bp至4.00%–4.25%概率76.8%、维持不变23.2%、50bp加息0%；较11/5的66.9%/33.1%回升约10pt，亦高于非农前约67%。CNBC同日引CME约76.8%；Reuters称盘后约78%（曾冲至约85%后回落）。FinBoss（11/7自算、延迟期货）约77%/23%。最新（11/9）：Morningstar引CME FedWatch约80%加息25bp（非农前约67%）、CNBC 11/9约79%、Kalshi合约约77美分。概率加权隐含加息约19bp；降息概率约0%。市场重新将12月加息作为基准情形","CME FedWatch(经The Edge/CNBC 11/6)、Reuters、FinBoss 2026-11-07查"),
+"fomc-stmt-20261209@investing":("（市场押注加息25bp，概率约88.8%；另有11.2%押注50bp）","当前目标区间3.75%–4.00%（10/28以10-2投票维持不变）。热CPI后，CME FedWatch（11/10–11/11）：12月加息25bp至4.00%–4.25%概率约88.8%、加息50bp至4.25%–4.50%约11.2%、维持不变0%（Cboe引FedWatch为90.5%/9.5%；盘中曾短暂更高）；一周前约72–77%。1月再加25bp概率升至约59.7%（周一19.3%）。理事Waller主张12月加息；此前若核心CPI达0.3%可支持50bp。12/9 14:00 ET公布","Investing.com(CME FedWatch)、Cboe、FXStreet、Investing.com分析 2026-11-11查"),
 "fomc-stmt-20270127@investing":("","FinBoss（11/7，基于延迟联邦基金期货自算，可与CME差几个百分点）：1月会后目标区间落在4.00%–4.25%概率约96%、仍在3.75%–4.00%约4%——即若12月加息一次，1月大概率按兵不动。非农前（FXBus/CME 11/6附近）曾为：累计维持27.0%、累计+25bp 63.6%、累计+50bp 9.5%。路径已随非农重新上修，但仍以“到1月共加一次”为主","FinBoss 2026-11-07查；对照CME FedWatch经FXBus 11/6（远期）"),
 "fomc-stmt-20270317@investing":("","非农后路径上修：The Edge引CME（11/6）：至3月累计至少加息一次概率89.1%（前值83.1%）、累计至少两次42.8%（前值34.7%）、维持不变10.9%。FinBoss（11/7）：3月会后落在4.00%–4.25%约64%、4.25%–4.50%约36%。至2027年12月，最可能区间为4.25%–4.50%（约36.4%），累计至少两次加息概率约62.2%（11/5为54.0%）","CME FedWatch(经The Edge 11/6)、FinBoss 2026-11-07查（远期）"),
 "nfp-20261106@investing":("（实际 +16.5万/失业率4.1%；预期约+5.9~6.5万）","已公布（11/6 08:30 ET）：非农新增就业+16.5万（远超华尔街预期：CNBC/Dow Jones约+5.9万、Haver/共识约+6.5万、Reuters调查中位数约+6.5万）；失业率降至4.1%（预期4.2%，前值4.2%）；平均时薪环比+0.4%、同比+3.1%（预期分别+0.3%/+2.9%）；平均工时34.4小时持平。8月上修至+18.6万（+5.3万）、9月上修至+6.0万（+3.1万），合计上修+8.4万。专业商务服务+7.0万、医疗保健约+4.2~5.5万、制造业+1.9万；劳动力增加42.1万、劳动参与率升至61.9%；U-6升至7.9%（+0.3pt）。11月非农预计12/4公布","BLS、CNBC、Haver Analytics、Reuters/MarketScreener 2026-11-07查"),
 "jolts-20261103@investing":("（实际752.3万/预期716万）","已公布：9月职位空缺752.3万（预期约715–716万，Dow Jones 715万、Econoday 716万、Reuters 710万；8月上修至719.0万），环比+33.3万，职位空缺率4.5%；离职人数336.5万（18个月新高）、招聘540.2万、裁员164.1万（自2025年3月以来最低）。每1名失业者对应约1.05个空缺。10月JOLTS将于12/1公布","BLS、CNBC、Econoday(CME)、Quartz 2026-11-04查"),
 "ismm-20261102@investing":("（实际55.5/预期54.6）","已公布：10月制造业PMI 55.5（一致预期54.6，前值54.5），连续第10个月扩张；价格支付指数75.2（预期77.0，前值77.9）；就业52.4（预期53.0）；新订单55.5","Sigmanomics经济日历、FXStreet 2026-11-03查"),
 "isms-20261104@investing":("（实际54.5/预期54.8）","已公布（11/4 23:00北京时间）：10月服务业PMI 54.5（Reuters调查预期54.8，Action Economics预期54.7，Dow Jones预期54.6；前值54.9），连续第28个月扩张、为三个月低点；商业活动指数53.8（前值56.5）、新订单55.9（前值59.8）、就业51.4（前值50.1）、价格指数73.0（前值74.0）。ISM称关税与燃料成本是最主要的供应链问题。11月数据将于12/3公布","ISM官网、Reuters/Investing.com、Haver Analytics、Forex Factory 2026-11-05查"),
-"cpi-20261110@investing":("（预期环比约+0.3%/核心约+0.2%）","一致预期：Bloomberg经济学家调查中位数为整体CPI环比+0.3%（9月实际+0.6%）、核心环比+0.2%（三个月最小增幅；9月+0.3%）。FactSet共识为整体环比+0.24%、核心+0.2%。Bloomberg Economics（Anna Wong等）预计整体+0.25%、核心+0.24%。克利夫兰联储Nowcast（11/6更新，周末无新值）：环比+0.24%/核心+0.21%；同比模型估计3.74%/核心2.48%。注意：BLS因2025年10月停摆未采集价格，本次不公布同比官方数字。另：Continuum约整体+0.24%/核心+0.22%，TD约整体+0.30%；RBC整体/核心均+0.3%，BofA整体+0.4%/核心+0.3%（11/9 TradingKey转引）；区间整体+0.24%~+0.4%、核心+0.2%~+0.3%。前值：9月环比+0.6%/同比3.7%，核心环比+0.3%/同比2.6%。11/10 21:30北京时间公布","Bloomberg(经Business Standard 11/8)、Morningstar引FactSet(11/6)、Cleveland Fed Nowcasting(11/6)、TD Economics 2026-11-08查"),
+"cpi-20261110@investing":("（实际环比+0.4%/核心+0.3%；预期+0.3%/+0.2%）","已公布（11/10 08:30 ET）：10月CPI环比+0.4%（Dow Jones/Reuters预期+0.3%；9月+0.6%），连续第三个月涨幅≥0.4%；核心CPI环比+0.3%（预期+0.2%；9月+0.3%），连续第三个月+0.3%。BLS因2025年10月停摆无同比官方数字；Reuters引经济学家估计核心同比约2.8%（9月2.6%）。数据高于预期，推升12月加息预期","CNBC、Reuters/Investing.com 2026-11-11查"),
 "pce-20261125@investing":("（Nowcast环比约+0.27%）","暂无统一街市共识。克利夫兰联储Nowcast（11/6更新，周末无新值）：10月PCE环比+0.27%、核心+0.26%；同比模型估计3.77%/核心3.20%。前值（9月，10/29公布）：PCE环比+0.5%/同比3.6%，核心环比+0.3%/同比3.1%。11/25 21:30北京时间与三季度GDP修正值同日公布","Cleveland Fed Nowcasting(11/6)、gov.house、BEA 2026-11-08查"),
 "gdp-20261125@investing":("（初值年化+3.4%）","三季度GDP初值（10/29已公布）年化增长3.4%（当时一致预期约3.2%）。11/25公布第二次估算；第二次估算的街市共识暂无权威来源。BEA官方JSON确认发布日期为11/25 08:30 ET","BEA、gov.house经济日历 2026-11-08查"),
 }
-CLAIMS_EXP="11/5已公布：初请实际18.9万（预期中位数约19.6万，区间19.3–20.0万；前值上修至19.5万），四周均值约19.48万；续请（截至10/24周）171.8万（环比+2.3万，当时预期171.0万）——Bloomberg Law/Investing.com/gov.house。11/12（截至11/7当周）一致预期：初请约19.5万（前值18.9万）；续请约172.2万（前值171.8万）——来源: TD Economics/Bloomberg、Helious、FX Blue、Makkler、gov.house 2026-11-08查"
+CLAIMS_EXP="11/5已公布：初请实际18.9万（预期中位数约19.6万，区间19.3–20.0万；前值上修至19.5万），四周均值约19.48万；续请（截至10/24周）171.8万（环比+2.3万，当时预期171.0万）——Bloomberg Law/Investing.com/gov.house。11/12（截至11/7当周）一致预期：初请约19.5万（前值18.9万）；续请约172.2万（前值171.8万）——来源: TD Economics/Bloomberg、Helious、FX Blue、Makkler、gov.house 2026-11-11查（WSJ调查初请195K，Optencis 194K，gov.house模型191K，Briefing.com预测190K）"
 def addexp(uid,title,desc,cat):
     if uid in EXP:
         suf,txt,src=EXP[uid]
