@@ -103,9 +103,9 @@ DESCRIPTION:美东时间: 2026-11-13 08:30 ET\n北京时间: 2026-11-13 21
  高盛预计+0.3%/+0.2%；Briefing.com共识+0.4%/+0.3%。Bloomberg（11/8
  ）预计整体同比升至约6.6%（近四年最陡；此前Continuum估
  约6.7%，前值6.3%）。11/13 21:30北京时间公布\n预期来源: TD 
- Economics、Bloomberg(经Business Standard 11/8)、gov.house、Investing.c
- om、Econvitals、MarketScreener、Continuum 2026-11-11查\n预期更新
- 于 2026-11-11
+ Economics、Bloomberg、gov.house、Dow Jones/WSJ(11/11：环比+0.4%、
+ 核心+0.3%、同比+6.6%)、StockTitan、Trade2Spike 2026-11-12查\n预
+ 期更新于 2026-11-12
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:美国11月PPI
@@ -351,14 +351,21 @@ DESCRIPTION:美东时间: 2027-03-31 08:30 ET\n北京时间: 2027-03-31 20
  无（临近时更新）
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:美国10月零售销售
+SUMMARY:美国10月零售销售（预期环比+0.6%，扣汽车+0.5%）
 DTSTART;TZID=Asia/Shanghai:20261117T213000
 DTEND;TZID=Asia/Shanghai:20261117T220000
 DTSTAMP:20261109T110000Z
 UID:retail-20261117@investing
 DESCRIPTION:美东时间: 2026-11-17 08:30 ET\n北京时间: 2026-11-17 21
  :30\nCensus Advance Monthly Retail Trade Report\n来源: https://www.censu
- s.gov/retail/release_schedule.html\n预期：暂无（临近时更新）
+ s.gov/retail/release_schedule.html\n预期：10月零售销售一致预期
+ ：整体环比+0.6%（gov.house共识；Continuum预测+0.2%，Kalshi市
+ 场对>0.2%概率约64%）；扣汽车+0.5%（Continuum预测+0.4%）；
+ 扣汽油与汽车+0.3%；控制组+0.1%。前值（9月）整体+0.8%（
+ 预期+0.4%，其中汽油站贡献约71%增量）、扣汽车+0.9%。11/1
+ 7 21:30北京时间公布。分歧较大，仅供参考\n预期来源: gov
+ .house共识、Continuum Economics、Kalshi 2026-11-12查\n预期更新于
+  2026-11-12
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:美国11月零售销售
@@ -532,7 +539,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:FOMC12月利率决议/声明（市场押注加息25bp，概率约8
- 8.8%；另有11.2%押注50bp）
+ 8–91%；另有约9–12%押注50bp）
 DTSTART;TZID=Asia/Shanghai:20261210T030000
 DTEND;TZID=Asia/Shanghai:20261210T033000
 DTSTAMP:20261109T110000Z
@@ -541,13 +548,15 @@ DESCRIPTION:美东时间: 2026-12-09 14:00 ET\n北京时间: 2026-12-10 03
  :00\n会议为两天，第二天14:00 ET发布声明；附经济预测(SEP
  )\n来源: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
  \n预期：当前目标区间3.75%–4.00%（10/28以10-2投票维持不
- 变）。热CPI后，CME FedWatch（11/10–11/11）：12月加息25bp至4
- .00%–4.25%概率约88.8%、加息50bp至4.25%–4.50%约11.2%、维持
- 不变0%（Cboe引FedWatch为90.5%/9.5%；盘中曾短暂更高）；一
- 周前约72–77%。1月再加25bp概率升至约59.7%（周一19.3%）。
- 理事Waller主张12月加息；此前若核心CPI达0.3%可支持50bp。1
- 2/9 14:00 ET公布\n预期来源: Investing.com(CME FedWatch)、Cboe、FXS
- treet、Investing.com分析 2026-11-11查\n预期更新于 2026-11-11
+ 变）。CME FedWatch（11/12）：12月加息25bp至4.00%–4.25%概率
+ 约88.4%–90.8%、加息50bp至4.25%–4.50%约9.2%–11.6%、维持不
+ 变0%（盘中不同时点有差异）；一周前约72%加息、23%维持
+ 。到1月累计：加50bp 61.9%、加25bp 30.6%、加75bp 7.6%（FXBus 11
+ /12）。理事Waller主张12月加息、若通胀恶化可更大幅；达
+ 拉斯联储Logan称需至少再加两次25bp。2年期美债收益率周
+ 二升17bp，10年期约4.98%。12/9 14:00 ET公布\n预期来源: CME Fed
+ Watch(经Investing.com、ATFX、FXBus、Financial World) 2026-11-12查\n
+ 预期更新于 2026-11-12
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:美联储主席新闻发布会(12月FOMC)
@@ -757,8 +766,8 @@ DESCRIPTION:美东时间: 2026-11-03 17:00 ET\n北京时间: 2026-11-04 06
  EG)、Reuters/Investing.com 2026-11-04查\n预期更新于 2026-11-04
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:英伟达财报 FY27Q3（盘后）（预期EPS ~$2.47/营收~$1088
- 亿）
+SUMMARY:英伟达财报 FY27Q3（盘后）（预期EPS ~$2.47–2.49/营
+ 收~$1088–1092亿）
 DTSTART;TZID=Asia/Shanghai:20261118T052000
 DTEND;TZID=Asia/Shanghai:20261118T062000
 DTSTAMP:20261109T110000Z
@@ -767,12 +776,14 @@ DESCRIPTION:美东时间: 2026-11-17 16:20 ET\n北京时间: 2026-11-18 05
  :20\n公司已确认：约16:20 ET发布，电话会17:00 ET\n来源: http
  s://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Confer
  ence-Call-for-Third-Quarter-Financial-Results/default.aspx\n预期：一
- 致预期基本持平：营收约$1088亿（MarketBeat/Investing.com约$10
- 8.8亿；The Right Trader 45位分析师$109.0亿），调整后EPS约$2.4
- 7（The Right Trader 13位分析师$2.49；区间$2.34–2.70）；公司
- 指引营收$1080亿±2%（约$1058–1102亿），毛利率74%±0.5pt。1
- 1/17盘后约16:20 ET发布，电话会17:00 ET\n预期来源: MarketBeat
- 、Backpack、FN2、NVIDIA IR 2026-11-07查\n预期更新于 2026-11-09
+ 致预期：营收约$1088–1092亿（MarketBeat $108.8B；Yahoo/Zacks $1
+ 08.99B；LSEG $109.2B），调整后EPS约$2.47–2.49（MarketBeat 2.47
+ ；LSEG 2.48；Zacks 2.49，30天上修0.61%）；同比约+91%。公司
+ 指引营收$1080亿±2%（不含中国数据中心计算收入），毛
+ 利率74%±0.5pt。关注：黄仁勋治理风波、Vera Rubin放量、毛
+ 利率压力。11/17盘后约16:20 ET发布，电话会17:00 ET\n预期来
+ 源: MarketBeat、Yahoo Finance/Zacks、IG(LSEG)、Investing.com 2026-11-1
+ 2查\n预期更新于 2026-11-12
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:博通财报 FY26Q4（盘后）（预期EPS ~$3.83–3.90）
@@ -980,15 +991,12 @@ EXDATE;TZID=Asia/Shanghai:20261126T213000
 DESCRIPTION:美东时间: 每周四 08:30 ET（冬令时=北京21:30）\n
  美国劳工部(DOL)每周四08:30 ET发布；节假日可能调整\n感
  恩节周预计改为周三11/25\n来源: https://www.dol.gov/ui/data.pdf
- \n预期：11/5已公布：初请实际18.9万（预期中位数约19.6万
- ，区间19.3–20.0万；前值上修至19.5万），四周均值约19.48
- 万；续请（截至10/24周）171.8万（环比+2.3万，当时预期171
- .0万）——Bloomberg Law/Investing.com/gov.house。11/12（截至11/7
- 当周）一致预期：初请约19.5万（前值18.9万）；续请约172
- .2万（前值171.8万）——来源: TD Economics/Bloomberg、Helious、
- FX Blue、Makkler、gov.house 2026-11-11查（WSJ调查初请195K，Optenc
- is 194K，gov.house模型191K，Briefing.com预测190K）\n预期更新于
-  2026-11-11
+ \n预期：11/12（截至11/7当周，今晚21:30北京时间公布）一
+ 致预期：初请约19.5–19.6万（WSJ/Dow Jones 19.6万，6位经济
+ 学家；gov.house共识19.5万、模型19.1万；前值18.9万）；续
+ 请约172.0万（前值171.8万）——WSJ(经MarketScreener 11/6)、gov.
+ house 2026-11-12查。上周（11/5）实际初请18.9万、续请171.8万
+ \n预期更新于 2026-11-12
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:美国初请失业金人数
