@@ -81,7 +81,7 @@ EXP_UPDATED={
 "er-tsm-20270114@investing":"2026-11-02",
 "nfp-20261106@investing":"2026-11-07",
 "cpi-20261110@investing":"2026-11-11",
-"ppi-20261113@investing":"2026-11-12",
+"ppi-20261113@investing":"2026-11-14",
 "pce-20261125@investing":"2026-11-13",
 "gdp-20261125@investing":"2026-11-08",
 "fomc-stmt-20261209@investing":"2026-11-13",
@@ -95,7 +95,7 @@ EXP_UPDATED={
 REFRESHED=set(k for k,v in EXP_UPDATED.items() if v==EXP_NEW)
 EXP={
 "er-aapl-20261102@investing":("（实际EPS $2.10/营收$1144.8亿；预期$1.99/$1134亿）","已公布：FQ4营收$1144.8亿（+12% YoY，高于一致预期约$1134亿）、EPS $2.10（+14% YoY，高于一致预期$1.99）；iPhone销售强劲但大中华区营收低于预期。赛前一致预期：营收约$1133–1134亿，EPS $1.98–1.99","Apple Newsroom、MarketBeat、Investing.com、Yahoo Finance 2026-11-04查"),
-"ppi-20261113@investing":("（预期环比+0.4%）","一致预期：最终需求PPI环比约+0.4%（TD Economics/Bloomberg、Investing.com/Econvitals/MarketScreener等；前值实际+1.3%）。核心PPI环比预期约+0.3%（9月约+0.7%；gov.house核心同比约4.9%，前值5.0%）。WSJ调查（11/9更新，20位经济学家）整体环比+0.4%、核心+0.3%、剔除食品能源及贸易+0.3%，同比整体约+6.6%；高盛预计+0.3%/+0.2%；Briefing.com共识+0.4%/+0.3%。Bloomberg（11/8）预计整体同比升至约6.6%（近四年最陡；此前Continuum估约6.7%，前值6.3%）。11/13 21:30北京时间公布","TD Economics、Bloomberg、gov.house、Dow Jones/WSJ(11/11：环比+0.4%、核心+0.3%、同比+6.6%)、StockTitan、Trade2Spike 2026-11-12查"),
+"ppi-20261113@investing":("（实际环比+0.3%/同比+6.5%；预期+0.4%，核心+0.3%符合预期）","已公布（11/13 08:30 ET）：最终需求PPI环比+0.3%（Dow Jones共识+0.4%；9月修订后为+1.4%），同比+6.5%（为2022年11月+7.4%以来最大升幅）。核心PPI（剔除食品和能源）环比+0.3%，符合预期，同比+5.0%（与9月持平，Haver）。BLS口径“剔除食品、能源和贸易服务”环比+0.5%（与9月相同），同比+4.9%。分项：商品+0.5%、服务+0.2%、食品+1.3%、能源-0.1%；商品（剔食品能源）+0.5%。11月PPI将于12/15 08:30 ET公布","BLS官网新闻稿、CNBC、Haver Analytics 2026-11-14查"),
 "er-amd-20261103@investing":("（实际EPS $2.09/营收$133.8亿；预期$1.95/$130.9亿）","已公布（11/3盘后）：Q3营收$133.77亿（+45% YoY，一致预期约$130.6–130.9亿），调整后EPS $2.09（+74% YoY，一致预期$1.94–1.95），GAAP EPS $1.46；数据中心营收创纪录$85亿（+97%，预期$82亿）；Q4指引营收约$170亿±3%（分析师预期$162.3亿），非GAAP毛利率约55%；CEO称2027年营收增长超80%（分析师预期77%）；财报后盘后股价约+8%","AMD IR新闻稿、CNBC(LSEG)、Reuters/Investing.com 2026-11-04查"),
 "er-nvda-20261117@investing":("（预期EPS ~$2.47–2.49/营收~$1088–1092亿）","一致预期：营收约$1088–1092亿（MarketBeat $108.8B；Yahoo/Zacks $108.99B；LSEG $109.2B），调整后EPS约$2.47–2.49（MarketBeat 2.47；LSEG 2.48；Zacks 2.49，30天上修0.61%）；同比约+91%。公司指引营收$1080亿±2%（不含中国数据中心计算收入），毛利率74%±0.5pt。关注：黄仁勋治理风波、Vera Rubin放量、毛利率压力。11/17盘后约16:20 ET发布，电话会17:00 ET","MarketBeat、Yahoo Finance/Zacks、IG(LSEG)、Investing.com 2026-11-12查"),
 "er-avgo-20261209@investing":("（预期EPS ~$3.83–3.90）","公司已发官方新闻稿确认：12/9美股收盘后发布FY26Q4财报及展望，电话会14:00 PT/17:00 ET。一致预期（尚未随新闻稿更新）：营收约$349–356亿，调整后EPS约$3.82–3.90（Backpack/drillr $3.82–3.83；FXEmpire/hulicalendar $355.7亿/$3.90）；公司指引营收约$348亿、AI半导体营收$217亿","Broadcom IR新闻稿2026-11-09；预期数字 Backpack/drillr/FXEmpire 2026-11-02查，日程确认于2026-11-13复核"),
