@@ -313,13 +313,17 @@ UID:pce-20261125@investing
 DESCRIPTION:美东时间: 2026-11-25 08:30 ET\n北京时间: 2026-11-25 21
  :30\n来源: https://www.bea.gov/news/schedule (JSON: https://apps.bea.gov
  /API/signup/release_dates.json)\n预期：暂无统一街市共识。克
- 利夫兰联储Nowcast（11/12更新，已纳入10月CPI）：10月PCE环
- 比+0.31%、核心+0.27%；同比3.81%/核心3.21%（11/6时为环比+0.27
- %/+0.26%、同比3.77%/3.20%）。gov.house模型预测PCE同比约3.9%（
- 区间3.7–4.0%）。前值（9月，10/29公布）：PCE环比+0.5%/同
- 比3.6%，核心环比+0.3%/同比3.1%。11/25 21:30北京时间与三季
- 度GDP修正值同日公布\n预期来源: Cleveland Fed Inflation Nowcast
- ing(11/12)、gov.house、BEA 2026-11-13查\n预期更新于 2026-11-13
+ 利夫兰联储Nowcast（11/13更新，每个工作日约10:00 ET；今日
+ 周六无新更）：纳入10月PPI后，10月PCE读数未变，仍为环
+ 比+0.31%、核心+0.27%；同比3.81%/核心3.21%（与11/12、11/10相
+ 同；11/6时为环比+0.27%/+0.26%、同比3.77%/3.20%）。11月Nowcast
+ ：环比+0.21%/核心+0.26%，同比3.83%/核心3.32%；2026年四季度
+ 年化：PCE 4.03%、核心3.38%。gov.house模型预测10月PCE同比约3
+ .9%（区间3.7–4.0%）。前值（9月，10/29公布）：PCE环比+0.5
+ %/同比3.6%，核心环比+0.3%/同比3.1%。11/25 21:30北京时间与
+ 三季度GDP修正值同日公布\n预期来源: Cleveland Fed Inflation N
+ owcasting(11/13)、gov.house、BEA 2026-11-14查\n预期更新于 2026-11-
+ 14
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:美国三季度GDP修正值(第二次估算)（初值年化+3.4%
@@ -445,22 +449,24 @@ DESCRIPTION:美东时间: 2027-04-29 08:30 ET\n北京时间: 2027-04-29 20
  无（临近时更新）
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:美国10月零售销售（预期整体环比约0.0%，扣汽车+0.
- 4~0.5%）
+SUMMARY:美国10月零售销售（预期整体环比约+0.2%，扣汽车
+ 约+0.4%）
 DTSTART;TZID=Asia/Shanghai:20261117T213000
 DTEND;TZID=Asia/Shanghai:20261117T220000
 DTSTAMP:20261109T110000Z
 UID:retail-20261117@investing
 DESCRIPTION:美东时间: 2026-11-17 08:30 ET\n北京时间: 2026-11-17 21
  :30\nCensus Advance Monthly Retail Trade Report\n来源: https://www.censu
- s.gov/retail/release_schedule.html\n预期：10月零售销售：Investing
- .com/Makkler一致预期整体环比约0.0%（前值+0.8%）；扣汽车
- ：gov.house共识+0.5%、Makkler+0.4%；控制组共识+0.1%（gov.house
- ）。Continuum（11/11）自身预测整体+0.2%、扣汽车+0.4%、扣
- 汽车与汽油+0.3%。gov.house日历目前未列整体街市共识（此
- 前曾引用约+0.6%，现已撤下）。11/17 21:30北京时间公布\n
- 预期来源: Investing.com、Makkler、gov.house、Continuum Economics 20
- 26-11-13查\n预期更新于 2026-11-13
+ s.gov/retail/release_schedule.html\n预期：10月零售销售：华尔街
+ 日报/Dow Jones调查（11/13 14:15 ET，7位经济学家）中位数整
+ 体环比+0.2%（前值+0.8%）、扣汽车+0.4%（前值+0.9%）；Bloomb
+ erg/TD Economics（11/13表）整体同样为+0.2%；gov.house日历现已
+ 列街市共识整体+0.2%、扣汽车+0.4%、控制组+0.4%（此前控
+ 制组共识为+0.1%）。Investing.com截至11/14仍显示整体预期0.0
+ %，或未同步更新。Continuum（11/11）自身预测整体+0.2%、扣
+ 汽车+0.4%、扣汽车与汽油+0.3%。11/17 21:30北京时间公布\n预
+ 期来源: 华尔街日报/Dow Jones、Bloomberg/TD Economics、gov.house
+ ；Investing.com仍显示0.0% 2026-11-14查\n预期更新于 2026-11-14
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:美国11月零售销售
@@ -670,7 +676,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:FOMC12月利率决议/声明（市场押注加息25bp，概率约8
- 5–90%；另有约10–15%押注50bp）
+ 8–90%；另有约10–12%押注50bp）
 DTSTART;TZID=Asia/Shanghai:20261210T030000
 DTEND;TZID=Asia/Shanghai:20261210T033000
 DTSTAMP:20261109T110000Z
@@ -679,14 +685,18 @@ DESCRIPTION:美东时间: 2026-12-09 14:00 ET\n北京时间: 2026-12-10 03
  :00\n会议为两天，第二天14:00 ET发布声明；附经济预测(SEP
  )\n来源: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
  \n预期：当前目标区间3.75%–4.00%（10/28以10-2投票维持不
- 变）。CME FedWatch（11/13）：12月加息已接近完全定价（维
- 持概率0%）；加息25bp至4.00%–4.25%概率约85–90%（CNBC周五
- 早盘引述约87%；独立期货复现11/13 10:00 UTC为85.3%；Jin10约8
- 4.7%）、加息50bp至4.25%–4.50%约10–15%（CNBC约13%；独立复
- 现14.7%）。10年期美债收益率周五早盘约5.13%。12/9 14:00 ET
- 公布\n预期来源: CME FedWatch（经CNBC 11/13、Jin10/Coinlive、独
- 立期货复现terminal.kryptomagazin 11/13 10:00 UTC）2026-11-13查\n预
- 期更新于 2026-11-13
+ 变）。CME FedWatch（10月PPI公布后、周五收盘附近）：12月
+ 加息已完全定价（维持概率0%）；加息25bp至4.00%–4.25%概
+ 率约88–90%（InvestmentNews引述PPI后CME为89.7%，由周四约85%
+ 升至该水平；FXBus 11/14引述89.8%），加息50bp至4.25%–4.50%
+ 约10–12%（InvestmentNews 10.3%，由约15%回落；独立期货复现t
+ erminal.kryptomagazin 11/14 05:00 UTC为88.1%/11.9%）。LSEG资金市场
+ 在PPI公布后盘中一度为91%/9%（较公布前约86%/14%）。较11/1
+ 3 10:00 UTC（PPI前）独立复现的85.3%/14.7%相比，25bp概率上升
+ 、50bp尾部回落。12/9 14:00 ET公布\n预期来源: CME FedWatch（
+ 经InvestmentNews 11/13 PPI后引述、FXBus 11/14；LSEG盘中数字经Ku
+ Coin/BlockBeats；独立期货复现terminal.kryptomagazin 11/14 05:00 UTC
+ ）2026-11-14查\n预期更新于 2026-11-14
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:美联储主席新闻发布会(12月FOMC)
@@ -699,8 +709,8 @@ DESCRIPTION:美东时间: 2026-12-09 14:30 ET\n北京时间: 2026-12-10 03
  gov/monetarypolicy/fomccalendars.htm
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FOMC1月利率决议/声明（到1月累计：加50bp约64%，加2
- 5bp约24–26%，加75bp约10–11%）
+SUMMARY:FOMC1月利率决议/声明（到1月累计：加50bp约68%，加2
+ 5bp约23–25%，加75bp约7–9%）
 DTSTART;TZID=Asia/Shanghai:20270128T030000
 DTEND;TZID=Asia/Shanghai:20270128T033000
 DTSTAMP:20261109T110000Z
@@ -708,14 +718,16 @@ UID:fomc-stmt-20270127@investing
 DESCRIPTION:美东时间: 2027-01-27 14:00 ET\n北京时间: 2027-01-28 03
  :00\n会议为两天，第二天14:00 ET发布声明\n来源: https://www.
  federalreserve.gov/monetarypolicy/fomccalendars.htm\n预期：当前目标
- 区间3.75%–4.00%。CME路径（11/13）：1月会后最可能落在4.25
- %–4.50%（约63.6%，即若12月加25bp后再加一次），其次4.00%
- –4.25%约26.2%（12月加息后1月按兵不动），4.50%–4.75%约10.
- 2%。累计看：加50bp约64–65%、加25bp约24–26%、加75bp约10–
- 11%（Jin10/Coinlive 11/13：24.4%/64.7%/10.9%）。维持在3.75%–4.00%
- 的概率已接近0%。1/27 14:00 ET公布\n预期来源: CME FedWatch经J
- in10/Coinlive及独立期货复现（terminal.kryptomagazin，11/13 10:00 
- UTC）2026-11-13查\n预期更新于 2026-11-13
+ 区间3.75%–4.00%。CME路径（PPI后）：1月会后最可能落在4.2
+ 5%–4.50%（约68%，即若12月加25bp后再加一次），其次4.00%
+ –4.25%约23–25%（12月加息后1月按兵不动），4.50%–4.75%约
+ 7–9%。累计看：加50bp约68%、加25bp约23–25%、加75bp约7–9%
+ （FXBus引述CME FedWatch 11/14：24.9%/67.8%/7.4%；独立复现11/14 05
+ :00 UTC：22.8%/68.4%/8.8%）。维持在3.75%–4.00%的概率已接近0%
+ 。较11/13 10:00 UTC的约26%/64%/10%相比，+50bp概率上升、+75bp
+ 尾部回落（与12月50bp概率下降一致）。1/27 14:00 ET公布\n
+ 预期来源: CME FedWatch经FXBus 11/14及独立期货复现（terminal.k
+ ryptomagazin，11/14 05:00 UTC）2026-11-14查\n预期更新于 2026-11-14
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:美联储主席新闻发布会(1月FOMC)
@@ -728,8 +740,8 @@ DESCRIPTION:美东时间: 2027-01-27 14:30 ET\n北京时间: 2027-01-28 03
  gov/monetarypolicy/fomccalendars.htm
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FOMC3月利率决议/声明（到3月最可能再累计加50–75b
- p）
+SUMMARY:FOMC3月利率决议/声明（到3月最可能累计加75bp，至4
+ .50%–4.75%）
 DTSTART;TZID=Asia/Shanghai:20270318T020000
 DTEND;TZID=Asia/Shanghai:20270318T023000
 DTSTAMP:20261109T110000Z
@@ -737,13 +749,15 @@ UID:fomc-stmt-20270317@investing
 DESCRIPTION:美东时间: 2027-03-17 14:00 ET\n北京时间: 2027-03-18 02
  :00\n会议为两天，第二天14:00 ET发布声明；附经济预测(SEP
  )\n来源: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
- \n预期：CME路径（11/13 10:00 UTC独立复现）：3月会后目标
- 区间概率为4.50%–4.75%约45.7%、4.25%–4.50%约38.8%、4.00%–4.2
- 5%约8.8%、4.75%–5.00%约6.8%。即到3月累计加息两次（至4.25%
- –4.50%）或三次（至4.50%–4.75%）为主情景，维持或只加
- 一次的概率已较低。3/17 14:00 ET公布\n预期来源: CME FedWatch
- 独立期货复现（terminal.kryptomagazin，11/13 10:00 UTC）2026-11-13
- 查\n预期更新于 2026-11-13
+ \n预期：CME路径（独立期货复现，11/14 05:00 UTC）：3月会
+ 后目标区间概率为4.50%–4.75%约51.0%、4.25%–4.50%约36.1%、4.
+ 00%–4.25%约6.7%、4.75%–5.00%约6.3%。即到3月累计加息三次
+ （至4.50%–4.75%）现为最可能情景，两次（至4.25%–4.50%）
+ 次之。较11/13 10:00 UTC的45.7%/38.8%/8.8%/6.8%，概率进一步向
+ 三次加息集中。官方CME页面为JS、未能直接读取3月分档
+ ，以上为独立复现。3/17 14:00 ET公布\n预期来源: CME FedWatch
+ 独立期货复现（terminal.kryptomagazin，11/14 05:00 UTC）2026-11-14
+ 查\n预期更新于 2026-11-14
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:美联储主席新闻发布会(3月FOMC)
@@ -768,11 +782,13 @@ DESCRIPTION:美东时间: 2027-04-28 14:00 ET\n北京时间: 2027-04-29 02
  来源: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm\n
  预期：美联储11/12宣布修订后的2027年FOMC暂定日程：4/27–
  28为常规议息会议（声明于第二天发布，无SEP）。CME路径
- （11/13）：4月会后概率4.50%–4.75%约43.2%、4.25%–4.50%约28.1
- %、4.75%–5.00%约20.6%、4.00%–4.25%约5.7%、5.00%–5.25%约2.4%。
- 当前目标区间3.75%–4.00%。4/28 14:00 ET公布\n预期来源: 美
- 联储官网新闻稿2026-11-12；CME FedWatch独立期货复现（11/13 1
- 0:00 UTC）2026-11-13查\n预期更新于 2026-11-13
+ （独立复现11/14 05:00 UTC）：4月会后概率4.50%–4.75%约45.8%
+ 、4.25%–4.50%约25.7%、4.75%–5.00%约22.0%、4.00%–4.25%约4.3%、
+ 5.00%–5.25%约2.2%。较11/13 10:00 UTC（43.2%/28.1%/20.6%/5.7%/2.4%）
+ 变化不大，众数仍在4.50%–4.75%。当前目标区间3.75%–4.00%
+ 。官方CME页面为JS、未能直接读取4月分档。4/28 14:00 ET公
+ 布\n预期来源: 美联储官网新闻稿2026-11-12；CME FedWatch独立
+ 期货复现（11/14 05:00 UTC）2026-11-14查\n预期更新于 2026-11-14
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:美联储主席新闻发布会(4月FOMC)
@@ -1159,9 +1175,12 @@ DESCRIPTION:美东时间: 每周四 08:30 ET（冬令时=北京21:30）\n
  万，此前WSJ/Dow Jones 19.6万；前值上修至19.1万，原报18.9万
  ），四周均值19.525万持平；续请（截至10/31）169.7万（前
  值下修至171.7万，原报171.8万）。下一次11/19（截至11/14当
- 周，21:30北京时间）一致预期：初请约19.4万，续请（截
- 至11/7）约172.5万，四周均值约19.2万——DOL官网、Reuters、
- gov.house、nowflation 2026-11-13查\n预期更新于 2026-11-13
+ 周，21:30北京时间）一致预期：初请约19.6–20.0万（WSJ/Dow
+  Jones调查11/13中位数20.0万，4位经济学家；Bloomberg/TD Econom
+ ics 19.7万；gov.house共识19.6万、模型19.8万），续请（截至1
+ 1/7）约172.5万，四周均值约19.2万——DOL官网、华尔街日
+ 报/Dow Jones、Bloomberg/TD Economics、gov.house 2026-11-14查\n预期
+ 更新于 2026-11-14
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:美国初请失业金人数
