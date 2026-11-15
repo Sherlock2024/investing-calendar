@@ -460,13 +460,13 @@ DESCRIPTION:美东时间: 2026-11-17 08:30 ET\n北京时间: 2026-11-17 21
  s.gov/retail/release_schedule.html\n预期：10月零售销售：华尔街
  日报/Dow Jones调查（11/13 14:15 ET，7位经济学家）中位数整
  体环比+0.2%（前值+0.8%）、扣汽车+0.4%（前值+0.9%）；Bloomb
- erg/TD Economics（11/13表）整体同样为+0.2%；gov.house日历现已
- 列街市共识整体+0.2%、扣汽车+0.4%、控制组+0.4%（此前控
- 制组共识为+0.1%）。Investing.com截至11/14仍显示整体预期0.0
- %，或未同步更新。Continuum（11/11）自身预测整体+0.2%、扣
- 汽车+0.4%、扣汽车与汽油+0.3%。11/17 21:30北京时间公布\n预
- 期来源: 华尔街日报/Dow Jones、Bloomberg/TD Economics、gov.house
- ；Investing.com仍显示0.0% 2026-11-14查\n预期更新于 2026-11-14
+ erg/TD Economics（11/13表）整体同样为+0.2%，扣汽车与汽油+0.
+ 3%；gov.house日历列街市共识整体+0.2%、扣汽车+0.4%、控制
+ 组+0.4%。Investing.com现已同步为整体+0.2%（11/14仍显示0.0%）
+ 。Continuum（11/11）自身预测整体+0.2%、扣汽车+0.4%、扣汽
+ 车与汽油+0.3%。11/17 21:30北京时间公布\n预期来源: 华尔街
+ 日报/Dow Jones、Bloomberg/TD Economics、gov.house、Investing.com 2026
+ -11-15查\n预期更新于 2026-11-15
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:美国11月零售销售
@@ -944,8 +944,8 @@ DESCRIPTION:美东时间: 2026-11-03 17:00 ET\n北京时间: 2026-11-04 06
  EG)、Reuters/Investing.com 2026-11-04查\n预期更新于 2026-11-04
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:英伟达财报 FY27Q3（盘后）（预期EPS ~$2.47–2.49/营
- 收~$1088–1092亿）
+SUMMARY:英伟达财报 FY27Q3（盘后）（预期EPS ~$2.47/营收~$1087
+ –1089亿）
 DTSTART;TZID=Asia/Shanghai:20261118T052000
 DTEND;TZID=Asia/Shanghai:20261118T062000
 DTSTAMP:20261109T110000Z
@@ -954,17 +954,20 @@ DESCRIPTION:美东时间: 2026-11-17 16:20 ET\n北京时间: 2026-11-18 05
  :20\n公司已确认：约16:20 ET发布，电话会17:00 ET\n来源: http
  s://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Confer
  ence-Call-for-Third-Quarter-Financial-Results/default.aspx\n预期：一
- 致预期：营收约$1088–1092亿（MarketBeat $108.8B；Yahoo/Zacks $1
- 08.99B；LSEG $109.2B），调整后EPS约$2.47–2.49（MarketBeat 2.47
- ；LSEG 2.48；Zacks 2.49，30天上修0.61%）；同比约+91%。公司
- 指引营收$1080亿±2%（不含中国数据中心计算收入），毛
- 利率74%±0.5pt。关注：黄仁勋治理风波、Vera Rubin放量、毛
- 利率压力。11/17盘后约16:20 ET发布，电话会17:00 ET\n预期来
- 源: MarketBeat、Yahoo Finance/Zacks、IG(LSEG)、Investing.com 2026-11-1
- 2查\n预期更新于 2026-11-12
+ 致预期：营收约$1087–1089亿（MarketBeat $108.72B；Yahoo Finance
+  45位分析师均值$108.73B，同比+90.74%；Theta Research 11/13为$10
+ 8.73B；Backpack 28位分析师/Investing.com $108.85B），调整后EPS
+ 约$2.47（MarketBeat、Yahoo 43位分析师、Theta、WSJ、Backpack、In
+ vesting.com均为2.47；Backpack区间$2.32–2.68）。公司指引营收
+ $1080亿±2%（不含中国数据中心计算收入），毛利率74%±0.5
+ pt。关注：黄仁勋治理风波、Vera Rubin放量、毛利率压力
+ 。11/17盘后约16:20 ET发布，电话会17:00 ET\n预期来源: MarketB
+ eat、Yahoo Finance、Theta Research、Backpack、Investing.com、WSJ 2026
+ -11-15查\n预期更新于 2026-11-15
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:博通财报 FY26Q4（盘后）（预期EPS ~$3.83–3.90）
+SUMMARY:博通财报 FY26Q4（盘后）（预期EPS ~$3.84/营收~$349亿
+ ）
 DTSTART;TZID=Asia/Shanghai:20261210T060000
 DTEND;TZID=Asia/Shanghai:20261210T070000
 DTSTAMP:20261109T110000Z
@@ -975,12 +978,12 @@ DESCRIPTION:美东时间: 2026-12-09 17:00 ET\n北京时间: 2026-12-10 06
  会）\n来源: https://investors.broadcom.com/news-releases/news-release-
  details/broadcom-inc-announce-fourth-quarter-and-fiscal-year-2026\n预期
  ：公司已发官方新闻稿确认：12/9美股收盘后发布FY26Q4财
- 报及展望，电话会14:00 PT/17:00 ET。一致预期（尚未随新闻
- 稿更新）：营收约$349–356亿，调整后EPS约$3.82–3.90（Back
- pack/drillr $3.82–3.83；FXEmpire/hulicalendar $355.7亿/$3.90）；公
- 司指引营收约$348亿、AI半导体营收$217亿\n预期来源: Broadc
- om IR新闻稿2026-11-09；预期数字 Backpack/drillr/FXEmpire 2026-11-0
- 2查，日程确认于2026-11-13复核\n预期更新于 2026-11-13
+ 报及展望，电话会14:00 PT/17:00 ET。一致预期已更新：Theta 
+ Research（数据截至11/13）营收$349.1亿、调整后EPS $3.84；与
+ 此前11/2较宽区间（营收约$349–356亿，EPS $3.82–3.90）相
+ 比，共识向约$349亿/$3.84靠拢。公司指引营收约$348亿、AI
+ 半导体营收$217亿\n预期来源: Broadcom IR新闻稿2026-11-09；The
+ ta Research 2026-11-15查\n预期更新于 2026-11-15
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:摩根大通财报 Q4（盘前）
