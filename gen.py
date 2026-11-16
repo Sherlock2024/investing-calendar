@@ -87,7 +87,7 @@ EXP_UPDATED={
 "fomc-stmt-20261209@investing":"2026-11-14",
 "fomc-stmt-20270127@investing":"2026-11-14",
 "fomc-stmt-20270317@investing":"2026-11-14",
-"er-nvda-20261117@investing":"2026-11-15",
+"er-nvda-20261117@investing":"2026-11-16",
 "jolts-20261201@investing":"2026-11-13",
 "fomc-stmt-20270428@investing":"2026-11-14",
 }
@@ -97,7 +97,7 @@ EXP={
 "er-aapl-20261102@investing":("（实际EPS $2.10/营收$1144.8亿；预期$1.99/$1134亿）","已公布：FQ4营收$1144.8亿（+12% YoY，高于一致预期约$1134亿）、EPS $2.10（+14% YoY，高于一致预期$1.99）；iPhone销售强劲但大中华区营收低于预期。赛前一致预期：营收约$1133–1134亿，EPS $1.98–1.99","Apple Newsroom、MarketBeat、Investing.com、Yahoo Finance 2026-11-04查"),
 "ppi-20261113@investing":("（实际环比+0.3%/同比+6.5%；预期+0.4%，核心+0.3%符合预期）","已公布（11/13 08:30 ET）：最终需求PPI环比+0.3%（Dow Jones共识+0.4%；9月修订后为+1.4%），同比+6.5%（为2022年11月+7.4%以来最大升幅）。核心PPI（剔除食品和能源）环比+0.3%，符合预期，同比+5.0%（与9月持平，Haver）。BLS口径“剔除食品、能源和贸易服务”环比+0.5%（与9月相同），同比+4.9%。分项：商品+0.5%、服务+0.2%、食品+1.3%、能源-0.1%；商品（剔食品能源）+0.5%。11月PPI将于12/15 08:30 ET公布","BLS官网新闻稿、CNBC、Haver Analytics 2026-11-14查"),
 "er-amd-20261103@investing":("（实际EPS $2.09/营收$133.8亿；预期$1.95/$130.9亿）","已公布（11/3盘后）：Q3营收$133.77亿（+45% YoY，一致预期约$130.6–130.9亿），调整后EPS $2.09（+74% YoY，一致预期$1.94–1.95），GAAP EPS $1.46；数据中心营收创纪录$85亿（+97%，预期$82亿）；Q4指引营收约$170亿±3%（分析师预期$162.3亿），非GAAP毛利率约55%；CEO称2027年营收增长超80%（分析师预期77%）；财报后盘后股价约+8%","AMD IR新闻稿、CNBC(LSEG)、Reuters/Investing.com 2026-11-04查"),
-"er-nvda-20261117@investing":("（预期EPS ~$2.47/营收~$1087–1089亿）","一致预期：营收约$1087–1089亿（MarketBeat $108.72B；Yahoo Finance 45位分析师均值$108.73B，同比+90.74%；Theta Research 11/13为$108.73B；Backpack 28位分析师/Investing.com $108.85B），调整后EPS约$2.47（MarketBeat、Yahoo 43位分析师、Theta、WSJ、Backpack、Investing.com均为2.47；Backpack区间$2.32–2.68）。公司指引营收$1080亿±2%（不含中国数据中心计算收入），毛利率74%±0.5pt。关注：黄仁勋治理风波、Vera Rubin放量、毛利率压力。11/17盘后约16:20 ET发布，电话会17:00 ET","MarketBeat、Yahoo Finance、Theta Research、Backpack、Investing.com、WSJ 2026-11-15查"),
+"er-nvda-20261117@investing":("（预期EPS ~$2.47/营收~$1087–1089亿）","一致预期仍约为营收$1087–1089亿、调整后EPS $2.47：Investing.com（11/16查）营收$108.85B、EPS $2.47；Theta Research（数据截至11/13）营收$108.73B、EPS $2.47；此前11/15记录的MarketBeat $108.72B、Yahoo Finance 45位分析师均值$108.73B（同比+90.74%）、Backpack 28位分析师$108.85B、EPS均为$2.47（Backpack区间$2.32–2.68），未见明显上修。公司指引营收$1080亿±2%（不含中国数据中心计算收入），毛利率74%±0.5pt。11/12公司新闻稿及SEC 8-K：董事会于11/11接受黄仁勋辞去总裁、CEO及董事职务，CFO Colette Kress任临时CEO并继续兼任CFO，董事会已启动永久CEO遴选；此次为新管理层下首次公布财报及展望。关注Vera Rubin放量、毛利率压力。11/17盘后约16:20 ET发布，电话会17:00 ET","NVIDIA官网新闻稿2026-11-12、SEC 8-K、Investing.com、Theta Research 2026-11-16查；MarketBeat、Yahoo Finance、Backpack、WSJ共识数字引自2026-11-15查"),
 "er-avgo-20261209@investing":("（预期EPS ~$3.84/营收~$349亿）","公司已发官方新闻稿确认：12/9美股收盘后发布FY26Q4财报及展望，电话会14:00 PT/17:00 ET。一致预期已更新：Theta Research（数据截至11/13）营收$349.1亿、调整后EPS $3.84；与此前11/2较宽区间（营收约$349–356亿，EPS $3.82–3.90）相比，共识向约$349亿/$3.84靠拢。公司指引营收约$348亿、AI半导体营收$217亿","Broadcom IR新闻稿2026-11-09；Theta Research 2026-11-15查"),
 "er-orcl-20261214@investing":("（预期EPS $1.89）","一致预期：营收约$213.3亿，调整后EPS $1.89；公司指引EPS $1.85–1.93，营收同比+30%~34%","Backpack/TipRanks、CNBC(2026-09-10) 2026-11-02查"),
 "er-mu-20261223@investing":("（预期EPS ~$38.2）","一致预期：营收约$615–617亿，EPS约$38.20–38.29；公司指引营收$615亿±15亿，EPS $38.15±1.00","micronstock.com/Theta Research、Micron IR 2026-11-02查"),
