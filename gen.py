@@ -127,7 +127,7 @@ EXP={
 "fomc-stmt-20270428@investing":("（市场定价4月会后多在4.50%–4.75%，约46.2%）","美联储11/12宣布修订后的2027年FOMC暂定日程：4/27–28为常规议息会议（声明于第二天发布，无SEP）。Investing.com Fed Rate Monitor（CME期货，2026-11-19 05:25 AM EST）：4月会后概率4.50%–4.75% 46.2%（工具所示前一日44.4%）、4.25%–4.50% 30.0%（前一日33.0%）、4.75%–5.00% 17.3%（前一日15.0%）、4.00%–4.25% 5.6%（前一日6.8%）、5.00%–5.25% 0.9%（前一日0.8%）。众数仍在4.50%–4.75%。较本日历11/18早间记录（44.6%/33.3%/14.8%/7.1%/0.3%）相比，4.50%–4.75%与4.75%–5.00%均上升。当前目标区间3.75%–4.00%。4/28 14:00 ET公布","美联储官网新闻稿2026-11-12；Investing.com Fed Rate Monitor（CME期货，11/19 05:25 AM EST）2026-11-19查"),
 "nfp-20261204@investing":("（gov.house模型约+9.3万/失业率4.1%）","暂无统一街市共识与时薪预期。gov.house模型预测11月非农新增约+9.3万（80%区间-1.5万至+20.2万），失业率基线4.1%（区间4.0%–4.2%）。10月实际为新增+16.5万、失业率4.1%。12/4 08:30 ET公布","gov.house、BLS 2026-11-17查"),
 }
-CLAIMS_EXP="11/12已公布（截至11/7当周）：初请实际20.0万（预期约19.4–19.6万：Reuters/nowflation 19.5万，MarketScreener 19.4万，此前WSJ/Dow Jones 19.6万；前值上修至19.1万，原报18.9万），四周均值19.525万持平；续请（截至10/31）169.7万（前值下修至171.7万，原报171.8万）。今晚11/19（截至11/14当周，21:30北京时间）一致预期：初请约19.7–19.8万（路透调查37位经济学家中位数19.7万，区间19.0–20.5万；Investing.com 19.8万；IBKR 11/18亦称约19.7万），续请（截至11/7）街市共识171.0万（Investing.com 1,710.00K，前值169.7万）。下一期已确认提前至周三11/25 08:30 ET（FRED发布日历已列）——DOL官网、Investing.com、路透/IBKR、FRED 2026-11-19查"
+CLAIMS_EXP="11/19已公布（截至11/14当周）：初请实际20.3万（预期约19.7–19.8万：路透调查37位经济学家中位数19.7万，区间19.0–20.5万；Investing.com 19.8万；IBKR 11/18亦称约19.7万；前值上修至20.2万，原报20.0万），四周均值19.775万（前值上修至19.575万，原报19.525万）；续请（截至11/7）176.3万（预期171.0万，前值下修至169.3万，原报169.7万），投保失业率1.1%持平，四周均值171.7万。下一期已确认提前至周三11/25 08:30 ET（FRED发布日历已列）——DOL官网（USDL 26-1722-NAT）、Investing.com、路透/IBKR、FRED 2026-11-20查"
 def addexp(uid,title,desc,cat):
     if uid in EXP:
         suf,txt,src=EXP[uid]
@@ -138,7 +138,7 @@ def addexp(uid,title,desc,cat):
     return title,desc
 cal=Calendar(); cal.add("prodid","-//Investing//sherlock//CN"); cal.add("version","2.0"); cal.add("calscale","GREGORIAN")
 cal.add("x-wr-calname","Investing"); cal.add("x-wr-timezone","Asia/Shanghai")
-stamp=datetime(2026,11,19,11,10,tzinfo=ZoneInfo("UTC"))
+stamp=datetime(2026,11,20,1,15,tzinfo=ZoneInfo("UTC"))
 def mk(uid,title,s,e,desc,allday):
     x=Event(); x.add("uid",uid); x.add("dtstamp",stamp); x.add("summary",title); x.add("dtstart",s); x.add("dtend",e); x.add("description",desc)
     if allday: x.add("transp","TRANSPARENT")
@@ -147,7 +147,7 @@ for c,u,t,s,e,d,a in ev:
     t,d=addexp(u,t,d,c); cal.add_component(mk(u,t,s,e,d,a))
 # jobless claims
 cn="美国劳工部(DOL)每周四08:30 ET发布；节假日可能调整"
-x=mk("claims-weekly-est@investing","美国初请失业金人数",datetime(2026,11,5,21,30,tzinfo=SH),datetime(2026,11,5,22,0,tzinfo=SH),"美东时间: 每周四 08:30 ET（冬令时=北京21:30）\n"+cn+"\n感恩节周改为周三11/25（FRED发布日历已列）\n来源: "+DOL+"\n预期："+CLAIMS_EXP+"\n预期更新于 "+EXP_NEW,False)
+x=mk("claims-weekly-est@investing","美国初请失业金人数",datetime(2026,11,5,21,30,tzinfo=SH),datetime(2026,11,5,22,0,tzinfo=SH),"美东时间: 每周四 08:30 ET（冬令时=北京21:30）\n"+cn+"\n感恩节周改为周三11/25（FRED发布日历已列）\n来源: "+DOL+"\n预期："+CLAIMS_EXP+"\n预期更新于 2026-11-20",False)
 x.add("rrule",{"freq":"weekly","byday":"TH","until":datetime(2027,3,11,13,30,tzinfo=ZoneInfo("UTC"))}); x.add("exdate",datetime(2026,11,26,21,30,tzinfo=SH)); cal.add_component(x)
 x=mk("claims-weekly-edt@investing","美国初请失业金人数",datetime(2027,3,18,20,30,tzinfo=SH),datetime(2027,3,18,21,0,tzinfo=SH),"美东时间: 每周四 08:30 ET（夏令时=北京20:30）\n"+cn+"\n来源: "+DOL,False)
 x.add("rrule",{"freq":"weekly","byday":"TH","until":datetime(2027,3,25,12,30,tzinfo=ZoneInfo("UTC"))}); cal.add_component(x)
