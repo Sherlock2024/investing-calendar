@@ -35,7 +35,7 @@ SUMMARY:美国10月CPI（实际环比+0.4%/核心+0.3%；预期+0.3%/+0.2%
  ）
 DTSTART;TZID=Asia/Shanghai:20261110T213000
 DTEND;TZID=Asia/Shanghai:20261110T220000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:cpi-20261110@investing
 DESCRIPTION:美东时间: 2026-11-10 08:30 ET\n北京时间: 2026-11-10 21
  :30\n来源: https://www.bls.gov/schedule/2026/home.htm\n预期：已公
@@ -48,20 +48,25 @@ DESCRIPTION:美东时间: 2026-11-10 08:30 ET\n北京时间: 2026-11-10 21
  6-11-11
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:美国11月CPI
+SUMMARY:美国11月CPI（Nowcast环比约+0.07%，同比约3.86%）
 DTSTART;TZID=Asia/Shanghai:20261210T213000
 DTEND;TZID=Asia/Shanghai:20261210T220000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:cpi-20261210@investing
 DESCRIPTION:美东时间: 2026-12-10 08:30 ET\n北京时间: 2026-12-10 21
  :30\n来源: https://www.bls.gov/schedule/2026/home.htm\n预期：暂无
- （临近时更新）
+ 可靠街市共识。克利夫兰联储Nowcast（11/19更新，11/20傍晚
+ 核对此页）：11月CPI环比+0.07%、核心+0.21%，同比3.86%、核
+ 心同比2.87%。gov.house模型预测11月CPI同比约4.1%（80%区间3.8
+ %–4.4%），与Nowcast不完全相同。12/10 08:30 ET公布\n预期来
+ 源: Cleveland Fed Inflation Nowcasting 11/19、gov.house 2026-11-20查\n
+ 预期更新于 2026-11-20
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:美国12月CPI
 DTSTART;TZID=Asia/Shanghai:20270113T213000
 DTEND;TZID=Asia/Shanghai:20270113T220000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:cpi-20270113@investing
 DESCRIPTION:美东时间: 2027-01-13 08:30 ET\n北京时间: 2027-01-13 21
  :30\n来源: https://www.bls.gov/schedule/2027/home.htm\n预期：暂无
@@ -71,7 +76,7 @@ BEGIN:VEVENT
 SUMMARY:美国1月CPI
 DTSTART;TZID=Asia/Shanghai:20270211T213000
 DTEND;TZID=Asia/Shanghai:20270211T220000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:cpi-20270211@investing
 DESCRIPTION:美东时间: 2027-02-11 08:30 ET\n北京时间: 2027-02-11 21
  :30\n来源: https://www.bls.gov/schedule/2027/home.htm\n预期：暂无
@@ -81,7 +86,7 @@ BEGIN:VEVENT
 SUMMARY:美国2月CPI
 DTSTART;TZID=Asia/Shanghai:20270310T213000
 DTEND;TZID=Asia/Shanghai:20270310T220000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:cpi-20270310@investing
 DESCRIPTION:美东时间: 2027-03-10 08:30 ET\n北京时间: 2027-03-10 21
  :30\n来源: https://www.bls.gov/schedule/2027/home.htm\n预期：暂无
@@ -91,7 +96,7 @@ BEGIN:VEVENT
 SUMMARY:美国3月CPI
 DTSTART;TZID=Asia/Shanghai:20270413T203000
 DTEND;TZID=Asia/Shanghai:20270413T210000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:cpi-20270413@investing
 DESCRIPTION:美东时间: 2027-04-13 08:30 ET\n北京时间: 2027-04-13 20
  :30\n来源: https://www.bls.gov/schedule/2027/home.htm\n预期：暂无
@@ -102,7 +107,7 @@ SUMMARY:美国10月PPI（实际环比+0.3%/同比+6.5%；预期+0.4%，核
  心+0.3%符合预期）
 DTSTART;TZID=Asia/Shanghai:20261113T213000
 DTEND;TZID=Asia/Shanghai:20261113T220000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:ppi-20261113@investing
 DESCRIPTION:美东时间: 2026-11-13 08:30 ET\n北京时间: 2026-11-13 21
  :30\n来源: https://www.bls.gov/schedule/2026/home.htm\n预期：已公
@@ -120,7 +125,7 @@ BEGIN:VEVENT
 SUMMARY:美国11月PPI
 DTSTART;TZID=Asia/Shanghai:20261215T213000
 DTEND;TZID=Asia/Shanghai:20261215T220000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:ppi-20261215@investing
 DESCRIPTION:美东时间: 2026-12-15 08:30 ET\n北京时间: 2026-12-15 21
  :30\n来源: https://www.bls.gov/schedule/2026/home.htm\n预期：暂无
@@ -130,7 +135,7 @@ BEGIN:VEVENT
 SUMMARY:美国12月PPI
 DTSTART;TZID=Asia/Shanghai:20270114T213000
 DTEND;TZID=Asia/Shanghai:20270114T220000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:ppi-20270114@investing
 DESCRIPTION:美东时间: 2027-01-14 08:30 ET\n北京时间: 2027-01-14 21
  :30\n来源: https://www.bls.gov/schedule/2027/home.htm\n预期：暂无
@@ -140,7 +145,7 @@ BEGIN:VEVENT
 SUMMARY:美国1月PPI
 DTSTART;TZID=Asia/Shanghai:20270212T213000
 DTEND;TZID=Asia/Shanghai:20270212T220000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:ppi-20270212@investing
 DESCRIPTION:美东时间: 2027-02-12 08:30 ET\n北京时间: 2027-02-12 21
  :30\n来源: https://www.bls.gov/schedule/2027/home.htm\n预期：暂无
@@ -150,7 +155,7 @@ BEGIN:VEVENT
 SUMMARY:美国2月PPI
 DTSTART;TZID=Asia/Shanghai:20270312T213000
 DTEND;TZID=Asia/Shanghai:20270312T220000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:ppi-20270312@investing
 DESCRIPTION:美东时间: 2027-03-12 08:30 ET\n北京时间: 2027-03-12 21
  :30\n来源: https://www.bls.gov/schedule/2027/home.htm\n预期：暂无
@@ -160,7 +165,7 @@ BEGIN:VEVENT
 SUMMARY:美国3月PPI
 DTSTART;TZID=Asia/Shanghai:20270414T203000
 DTEND;TZID=Asia/Shanghai:20270414T210000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:ppi-20270414@investing
 DESCRIPTION:美东时间: 2027-04-14 08:30 ET\n北京时间: 2027-04-14 20
  :30\n来源: https://www.bls.gov/schedule/2027/home.htm\n预期：暂无
@@ -171,7 +176,7 @@ SUMMARY:美国10月非农就业报告（实际 +16.5万/失业率4.1%；
  预期约+5.9~6.5万）
 DTSTART;TZID=Asia/Shanghai:20261106T213000
 DTEND;TZID=Asia/Shanghai:20261106T220000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:nfp-20261106@investing
 DESCRIPTION:美东时间: 2026-11-06 08:30 ET\n北京时间: 2026-11-06 21
  :30\n来源: https://www.bls.gov/schedule/2026/home.htm\n预期：已公
@@ -191,7 +196,7 @@ SUMMARY:美国11月非农就业报告（gov.house模型约+9.3万/失业
  率4.1%）
 DTSTART;TZID=Asia/Shanghai:20261204T213000
 DTEND;TZID=Asia/Shanghai:20261204T220000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:nfp-20261204@investing
 DESCRIPTION:美东时间: 2026-12-04 08:30 ET\n北京时间: 2026-12-04 21
  :30\n来源: https://www.bls.gov/schedule/2026/home.htm\n预期：暂无
@@ -205,7 +210,7 @@ BEGIN:VEVENT
 SUMMARY:美国12月非农就业报告
 DTSTART;TZID=Asia/Shanghai:20270108T213000
 DTEND;TZID=Asia/Shanghai:20270108T220000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:nfp-20270108@investing
 DESCRIPTION:美东时间: 2027-01-08 08:30 ET\n北京时间: 2027-01-08 21
  :30\n来源: https://www.bls.gov/schedule/2027/home.htm\n预期：暂无
@@ -215,7 +220,7 @@ BEGIN:VEVENT
 SUMMARY:美国1月非农就业报告
 DTSTART;TZID=Asia/Shanghai:20270205T213000
 DTEND;TZID=Asia/Shanghai:20270205T220000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:nfp-20270205@investing
 DESCRIPTION:美东时间: 2027-02-05 08:30 ET\n北京时间: 2027-02-05 21
  :30\n来源: https://www.bls.gov/schedule/2027/home.htm\n预期：暂无
@@ -225,7 +230,7 @@ BEGIN:VEVENT
 SUMMARY:美国2月非农就业报告
 DTSTART;TZID=Asia/Shanghai:20270305T213000
 DTEND;TZID=Asia/Shanghai:20270305T220000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:nfp-20270305@investing
 DESCRIPTION:美东时间: 2027-03-05 08:30 ET\n北京时间: 2027-03-05 21
  :30\n来源: https://www.bls.gov/schedule/2027/home.htm\n预期：暂无
@@ -235,7 +240,7 @@ BEGIN:VEVENT
 SUMMARY:美国3月非农就业报告
 DTSTART;TZID=Asia/Shanghai:20270402T203000
 DTEND;TZID=Asia/Shanghai:20270402T210000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:nfp-20270402@investing
 DESCRIPTION:美东时间: 2027-04-02 08:30 ET\n北京时间: 2027-04-02 20
  :30\n来源: https://www.bls.gov/schedule/2027/home.htm\n预期：暂无
@@ -245,7 +250,7 @@ BEGIN:VEVENT
 SUMMARY:美国9月JOLTS职位空缺（实际752.3万/预期716万）
 DTSTART;TZID=Asia/Shanghai:20261103T230000
 DTEND;TZID=Asia/Shanghai:20261103T233000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:jolts-20261103@investing
 DESCRIPTION:美东时间: 2026-11-03 10:00 ET\n北京时间: 2026-11-03 23
  :00\n来源: https://www.bls.gov/schedule/news_release/jolts.htm\n预期
@@ -261,7 +266,7 @@ BEGIN:VEVENT
 SUMMARY:美国10月JOLTS职位空缺（gov.house模型约750万）
 DTSTART;TZID=Asia/Shanghai:20261201T230000
 DTEND;TZID=Asia/Shanghai:20261201T233000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:jolts-20261201@investing
 DESCRIPTION:美东时间: 2026-12-01 10:00 ET\n北京时间: 2026-12-01 23
  :00\n来源: https://www.bls.gov/schedule/news_release/jolts.htm\n预期
@@ -273,7 +278,7 @@ BEGIN:VEVENT
 SUMMARY:美国11月JOLTS职位空缺
 DTSTART;TZID=Asia/Shanghai:20270105T230000
 DTEND;TZID=Asia/Shanghai:20270105T233000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:jolts-20270105@investing
 DESCRIPTION:美东时间: 2027-01-05 10:00 ET\n北京时间: 2027-01-05 23
  :00\n来源: https://www.bls.gov/schedule/2027/home.htm\n预期：暂无
@@ -283,7 +288,7 @@ BEGIN:VEVENT
 SUMMARY:美国12月JOLTS职位空缺
 DTSTART;TZID=Asia/Shanghai:20270202T230000
 DTEND;TZID=Asia/Shanghai:20270202T233000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:jolts-20270202@investing
 DESCRIPTION:美东时间: 2027-02-02 10:00 ET\n北京时间: 2027-02-02 23
  :00\n来源: https://www.bls.gov/schedule/2027/home.htm\n预期：暂无
@@ -293,7 +298,7 @@ BEGIN:VEVENT
 SUMMARY:美国1月JOLTS职位空缺
 DTSTART;TZID=Asia/Shanghai:20270309T230000
 DTEND;TZID=Asia/Shanghai:20270309T233000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:jolts-20270309@investing
 DESCRIPTION:美东时间: 2027-03-09 10:00 ET\n北京时间: 2027-03-09 23
  :00\n来源: https://www.bls.gov/schedule/2027/home.htm\n预期：暂无
@@ -303,7 +308,7 @@ BEGIN:VEVENT
 SUMMARY:美国2月JOLTS职位空缺
 DTSTART;TZID=Asia/Shanghai:20270330T220000
 DTEND;TZID=Asia/Shanghai:20270330T223000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:jolts-20270330@investing
 DESCRIPTION:美东时间: 2027-03-30 10:00 ET\n北京时间: 2027-03-30 22
  :00\n来源: https://www.bls.gov/schedule/2027/home.htm\n预期：暂无
@@ -314,7 +319,7 @@ SUMMARY:美国10月PCE/个人收入与支出（共识环比约+0.3%，Nowc
  ast约+0.31%）
 DTSTART;TZID=Asia/Shanghai:20261125T213000
 DTEND;TZID=Asia/Shanghai:20261125T220000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:pce-20261125@investing
 DESCRIPTION:美东时间: 2026-11-25 08:30 ET\n北京时间: 2026-11-25 21
  :30\n来源: https://www.bea.gov/news/schedule (JSON: https://apps.bea.gov
@@ -323,27 +328,26 @@ DESCRIPTION:美东时间: 2026-11-25 08:30 ET\n北京时间: 2026-11-25 21
  值+0.3%）、核心同比3.2%（前值3.1%）；PCE同比尚未列街市
  共识。Reuters（11/17）亦称经济学家继续预期核心PCE环比
  连续第三个月+0.3%、同比+3.2%。克利夫兰联储Nowcast页面截
- 至11/19早间仍标注11/18更新（每个工作日约10:00 ET；当日
- 例行更新尚未发布）：10月PCE读数未变，仍为环比+0.31%、
- 核心+0.27%，同比3.81%/核心3.21%。11月Nowcast亦未再变动：环
- 比+0.17%/核心+0.26%，同比3.78%/核心3.32%；11月CPI Nowcast环比+
- 0.07%/核心+0.21%，同比3.86%/核心2.87%。2026年四季度年化（
- 官网11/18表格）：PCE 3.89%、核心PCE 3.38%；CPI 4.32%、核心CPI
-  3.40%（11/18早间记录曾写PCE 3.87%、CPI 4.28%，已按官网当前
- 表格更正）。gov.house模型预测10月PCE同比约3.9%（区间3.7
- –4.0%）。前值（9月，10/29公布）：PCE环比+0.5%/同比3.6%，
- 核心环比+0.3%/同比3.1%。11/25 21:30北京时间与三季度GDP修
- 正值同日公布\n预期来源: Cleveland Fed Inflation Nowcasting（页
- 面截至11/19早间仍标注11/18更新，当日约10:00 ET例行更新
- 尚未发布）、gov.house、Reuters、BEA 2026-11-19查\n预期更新于
-  2026-11-19
+ 至11/20傍晚仍标注11/19更新（每个工作日约10:00 ET；11/20当
+ 日例行更新尚未发布）：10月PCE读数未变，仍为环比+0.31%
+ 、核心+0.27%，同比3.81%/核心3.21%。11月Nowcast亦未再变动：
+ 环比+0.17%/核心+0.26%，同比3.78%/核心3.32%；11月CPI Nowcast环
+ 比+0.07%/核心+0.21%，同比3.86%/核心2.87%。2026年四季度年化
+ （官网11/19表格）：PCE 3.87%、核心PCE 3.38%；CPI 4.28%、核心
+ CPI 3.40%（本日历11/19记录曾按11/18表格写PCE 3.89%、CPI 4.32%
+ ，已按11/19表格更正）。gov.house模型预测10月PCE同比约3.9%
+ （区间3.7–4.0%）。前值（9月，10/29公布）：PCE环比+0.5%/
+ 同比3.6%，核心环比+0.3%/同比3.1%。11/25 21:30北京时间与三
+ 季度GDP修正值同日公布\n预期来源: Cleveland Fed Inflation Nowc
+ asting（页面截至11/20傍晚标注11/19更新）、gov.house、Reuters
+ 、BEA 2026-11-20查\n预期更新于 2026-11-20
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:美国三季度GDP修正值(第二次估算)（第二次估算共
  识年化+3.4%，与初值持平）
 DTSTART;TZID=Asia/Shanghai:20261125T213000
 DTEND;TZID=Asia/Shanghai:20261125T220000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:gdp-20261125@investing
 DESCRIPTION:美东时间: 2026-11-25 08:30 ET\n北京时间: 2026-11-25 21
  :30\n来源: https://www.bea.gov/news/schedule (JSON: https://apps.bea.gov
@@ -360,7 +364,7 @@ BEGIN:VEVENT
 SUMMARY:美国11月PCE/个人收入与支出
 DTSTART;TZID=Asia/Shanghai:20261223T213000
 DTEND;TZID=Asia/Shanghai:20261223T220000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:pce-20261223@investing
 DESCRIPTION:美东时间: 2026-12-23 08:30 ET\n北京时间: 2026-12-23 21
  :30\n来源: https://www.bea.gov/news/schedule (JSON: https://apps.bea.gov
@@ -370,7 +374,7 @@ BEGIN:VEVENT
 SUMMARY:美国三季度GDP终值(第三次估算)
 DTSTART;TZID=Asia/Shanghai:20261223T213000
 DTEND;TZID=Asia/Shanghai:20261223T220000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:gdp-20261223@investing
 DESCRIPTION:美东时间: 2026-12-23 08:30 ET\n北京时间: 2026-12-23 21
  :30\n来源: https://www.bea.gov/news/schedule (JSON: https://apps.bea.gov
@@ -380,7 +384,7 @@ BEGIN:VEVENT
 SUMMARY:美国12月PCE/个人收入与支出
 DTSTART;TZID=Asia/Shanghai:20270128T213000
 DTEND;TZID=Asia/Shanghai:20270128T220000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:pce-20270128@investing
 DESCRIPTION:美东时间: 2027-01-28 08:30 ET\n北京时间: 2027-01-28 21
  :30\n来源: https://www.bea.gov/news/schedule (JSON: https://apps.bea.gov
@@ -390,7 +394,7 @@ BEGIN:VEVENT
 SUMMARY:美国四季度GDP初值
 DTSTART;TZID=Asia/Shanghai:20270128T213000
 DTEND;TZID=Asia/Shanghai:20270128T220000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:gdp-20270128@investing
 DESCRIPTION:美东时间: 2027-01-28 08:30 ET\n北京时间: 2027-01-28 21
  :30\n2027年日期与时间已由BEA官方JSON列出；GDP初值/修正值
@@ -402,7 +406,7 @@ BEGIN:VEVENT
 SUMMARY:美国1月PCE/个人收入与支出
 DTSTART;TZID=Asia/Shanghai:20270225T213000
 DTEND;TZID=Asia/Shanghai:20270225T220000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:pce-20270225@investing
 DESCRIPTION:美东时间: 2027-02-25 08:30 ET\n北京时间: 2027-02-25 21
  :30\n来源: https://www.bea.gov/news/schedule (JSON: https://apps.bea.gov
@@ -412,7 +416,7 @@ BEGIN:VEVENT
 SUMMARY:美国四季度GDP修正值
 DTSTART;TZID=Asia/Shanghai:20270225T213000
 DTEND;TZID=Asia/Shanghai:20270225T220000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:gdp-20270225@investing
 DESCRIPTION:美东时间: 2027-02-25 08:30 ET\n北京时间: 2027-02-25 21
  :30\n2027年日期与时间已由BEA官方JSON列出；GDP初值/修正值
@@ -424,7 +428,7 @@ BEGIN:VEVENT
 SUMMARY:美国2月PCE/个人收入与支出
 DTSTART;TZID=Asia/Shanghai:20270331T203000
 DTEND;TZID=Asia/Shanghai:20270331T210000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:pce-20270331@investing
 DESCRIPTION:美东时间: 2027-03-31 08:30 ET\n北京时间: 2027-03-31 20
  :30\n来源: https://www.bea.gov/news/schedule (JSON: https://apps.bea.gov
@@ -434,7 +438,7 @@ BEGIN:VEVENT
 SUMMARY:美国四季度GDP终值
 DTSTART;TZID=Asia/Shanghai:20270331T203000
 DTEND;TZID=Asia/Shanghai:20270331T210000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:gdp-20270331@investing
 DESCRIPTION:美东时间: 2027-03-31 08:30 ET\n北京时间: 2027-03-31 20
  :30\n2027年日期与时间已由BEA官方JSON列出；GDP初值/修正值
@@ -446,7 +450,7 @@ BEGIN:VEVENT
 SUMMARY:美国3月PCE/个人收入与支出
 DTSTART;TZID=Asia/Shanghai:20270429T203000
 DTEND;TZID=Asia/Shanghai:20270429T210000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:pce-20270429@investing
 DESCRIPTION:美东时间: 2027-04-29 08:30 ET\n北京时间: 2027-04-29 20
  :30\n来源: https://www.bea.gov/news/schedule (JSON: https://apps.bea.gov
@@ -456,7 +460,7 @@ BEGIN:VEVENT
 SUMMARY:美国一季度GDP初值
 DTSTART;TZID=Asia/Shanghai:20270429T203000
 DTEND;TZID=Asia/Shanghai:20270429T210000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:gdp-20270429@investing
 DESCRIPTION:美东时间: 2027-04-29 08:30 ET\n北京时间: 2027-04-29 20
  :30\n2027年日期与时间已由BEA官方JSON列出；GDP初值/修正值
@@ -469,7 +473,7 @@ SUMMARY:美国10月零售销售（实际整体环比+0.2%/扣汽车+0.6%
  ；预期+0.2%/+0.4%）
 DTSTART;TZID=Asia/Shanghai:20261117T213000
 DTEND;TZID=Asia/Shanghai:20261117T220000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:retail-20261117@investing
 DESCRIPTION:美东时间: 2026-11-17 08:30 ET\n北京时间: 2026-11-17 21
  :30\nCensus Advance Monthly Retail Trade Report\n来源: https://www.censu
@@ -490,7 +494,7 @@ BEGIN:VEVENT
 SUMMARY:美国11月零售销售
 DTSTART;TZID=Asia/Shanghai:20261216T213000
 DTEND;TZID=Asia/Shanghai:20261216T220000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:retail-20261216@investing
 DESCRIPTION:美东时间: 2026-12-16 08:30 ET\n北京时间: 2026-12-16 21
  :30\nCensus Advance Monthly Retail Trade Report\n来源: https://www.censu
@@ -500,7 +504,7 @@ BEGIN:VEVENT
 SUMMARY:美国12月零售销售
 DTSTART;TZID=Asia/Shanghai:20270115T213000
 DTEND;TZID=Asia/Shanghai:20270115T220000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:retail-20270115@investing
 DESCRIPTION:美东时间: 2027-01-15 08:30 ET\n北京时间: 2027-01-15 21
  :30\nCensus Advance Monthly Retail Trade Report\n来源: https://www.censu
@@ -510,7 +514,7 @@ BEGIN:VEVENT
 SUMMARY:美国1月零售销售
 DTSTART;TZID=Asia/Shanghai:20270217T213000
 DTEND;TZID=Asia/Shanghai:20270217T220000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:retail-20270217@investing
 DESCRIPTION:美东时间: 2027-02-17 08:30 ET\n北京时间: 2027-02-17 21
  :30\nCensus Advance Monthly Retail Trade Report\n来源: https://www.censu
@@ -520,7 +524,7 @@ BEGIN:VEVENT
 SUMMARY:美国2月零售销售
 DTSTART;TZID=Asia/Shanghai:20270316T203000
 DTEND;TZID=Asia/Shanghai:20270316T210000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:retail-20270316@investing
 DESCRIPTION:美东时间: 2027-03-16 08:30 ET\n北京时间: 2027-03-16 20
  :30\nCensus Advance Monthly Retail Trade Report\n来源: https://www.censu
@@ -530,7 +534,7 @@ BEGIN:VEVENT
 SUMMARY:美国3月零售销售
 DTSTART;TZID=Asia/Shanghai:20270416T203000
 DTEND;TZID=Asia/Shanghai:20270416T210000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:retail-20270416@investing
 DESCRIPTION:美东时间: 2027-04-16 08:30 ET\n北京时间: 2027-04-16 20
  :30\nCensus Advance Monthly Retail Trade Report\n来源: https://www.censu
@@ -540,7 +544,7 @@ BEGIN:VEVENT
 SUMMARY:ISM10月制造业PMI（实际55.5/预期54.6）
 DTSTART;TZID=Asia/Shanghai:20261102T230000
 DTEND;TZID=Asia/Shanghai:20261102T233000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:ismm-20261102@investing
 DESCRIPTION:美东时间: 2026-11-02 10:00 ET\n北京时间: 2026-11-02 23
  :00\n来源: https://www.ismworld.org/supply-management-news-and-reports/r
@@ -554,7 +558,7 @@ BEGIN:VEVENT
 SUMMARY:ISM11月制造业PMI
 DTSTART;TZID=Asia/Shanghai:20261201T230000
 DTEND;TZID=Asia/Shanghai:20261201T233000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:ismm-20261201@investing
 DESCRIPTION:美东时间: 2026-12-01 10:00 ET\n北京时间: 2026-12-01 23
  :00\n来源: https://www.ismworld.org/supply-management-news-and-reports/r
@@ -564,7 +568,7 @@ BEGIN:VEVENT
 SUMMARY:ISM10月服务业PMI（实际54.5/预期54.8）
 DTSTART;TZID=Asia/Shanghai:20261104T230000
 DTEND;TZID=Asia/Shanghai:20261104T233000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:isms-20261104@investing
 DESCRIPTION:美东时间: 2026-11-04 10:00 ET\n北京时间: 2026-11-04 23
  :00\n来源: https://www.ismworld.org/supply-management-news-and-reports/r
@@ -582,7 +586,7 @@ BEGIN:VEVENT
 SUMMARY:ISM11月服务业PMI
 DTSTART;TZID=Asia/Shanghai:20261203T230000
 DTEND;TZID=Asia/Shanghai:20261203T233000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:isms-20261203@investing
 DESCRIPTION:美东时间: 2026-12-03 10:00 ET\n北京时间: 2026-12-03 23
  :00\n来源: https://www.ismworld.org/supply-management-news-and-reports/r
@@ -592,7 +596,7 @@ BEGIN:VEVENT
 SUMMARY:(预计) ISM12月制造业PMI
 DTSTART;VALUE=DATE:20270104
 DTEND;VALUE=DATE:20270105
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:ismm-20270104@investing
 DESCRIPTION:ISM尚未公布2027年日程；按ISM规则（制造业=每月
  第1个工作日，服务业=第3个工作日，10:00 ET）推算。冬令
@@ -605,7 +609,7 @@ BEGIN:VEVENT
 SUMMARY:(预计) ISM1月制造业PMI
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:ismm-20270201@investing
 DESCRIPTION:ISM尚未公布2027年日程；按ISM规则（制造业=每月
  第1个工作日，服务业=第3个工作日，10:00 ET）推算。冬令
@@ -618,7 +622,7 @@ BEGIN:VEVENT
 SUMMARY:(预计) ISM2月制造业PMI
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:ismm-20270301@investing
 DESCRIPTION:ISM尚未公布2027年日程；按ISM规则（制造业=每月
  第1个工作日，服务业=第3个工作日，10:00 ET）推算。冬令
@@ -631,7 +635,7 @@ BEGIN:VEVENT
 SUMMARY:(预计) ISM3月制造业PMI
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:ismm-20270401@investing
 DESCRIPTION:ISM尚未公布2027年日程；按ISM规则（制造业=每月
  第1个工作日，服务业=第3个工作日，10:00 ET）推算。冬令
@@ -644,7 +648,7 @@ BEGIN:VEVENT
 SUMMARY:(预计) ISM12月服务业PMI
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:isms-20270106@investing
 DESCRIPTION:ISM尚未公布2027年日程；按ISM规则（制造业=每月
  第1个工作日，服务业=第3个工作日，10:00 ET）推算。冬令
@@ -657,7 +661,7 @@ BEGIN:VEVENT
 SUMMARY:(预计) ISM1月服务业PMI
 DTSTART;VALUE=DATE:20270203
 DTEND;VALUE=DATE:20270204
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:isms-20270203@investing
 DESCRIPTION:ISM尚未公布2027年日程；按ISM规则（制造业=每月
  第1个工作日，服务业=第3个工作日，10:00 ET）推算。冬令
@@ -670,7 +674,7 @@ BEGIN:VEVENT
 SUMMARY:(预计) ISM2月服务业PMI
 DTSTART;VALUE=DATE:20270303
 DTEND;VALUE=DATE:20270304
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:isms-20270303@investing
 DESCRIPTION:ISM尚未公布2027年日程；按ISM规则（制造业=每月
  第1个工作日，服务业=第3个工作日，10:00 ET）推算。冬令
@@ -683,7 +687,7 @@ BEGIN:VEVENT
 SUMMARY:(预计) ISM3月服务业PMI
 DTSTART;VALUE=DATE:20270405
 DTEND;VALUE=DATE:20270406
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:isms-20270405@investing
 DESCRIPTION:ISM尚未公布2027年日程；按ISM规则（制造业=每月
  第1个工作日，服务业=第3个工作日，10:00 ET）推算。冬令
@@ -693,103 +697,104 @@ DESCRIPTION:ISM尚未公布2027年日程；按ISM规则（制造业=每月
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FOMC12月利率决议/声明（市场押注加息25bp约93.9%，50
- bp约6.1%）
+SUMMARY:FOMC12月利率决议/声明（市场押注加息25bp约95.2%，
+ 维持约4.8%）
 DTSTART;TZID=Asia/Shanghai:20261210T030000
 DTEND;TZID=Asia/Shanghai:20261210T033000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:fomc-stmt-20261209@investing
 DESCRIPTION:美东时间: 2026-12-09 14:00 ET\n北京时间: 2026-12-10 03
  :00\n会议为两天，第二天14:00 ET发布声明；附经济预测(SEP
  )\n来源: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
  \n预期：当前目标区间3.75%–4.00%（10/28以10-2投票维持不
  变）。Investing.com Fed Rate Monitor（基于CME 30天联邦基金期
- 货，2026-11-19 05:25 AM EST更新）：12月维持在3.75%–4.00%概率
- 为0%；加息25bp至4.00%–4.25%概率93.9%（工具所示前一日93.9%
- 、前一周94.4%），加息50bp至4.25%–4.50%概率6.1%（前一日6.1
- %、前一周5.6%）。较本日历11/18早间记录（97.5%/2.5%）相比
- ，25bp定价明显回落，50bp尾部升至6.1%；该变动出现在11/18
-  14:00 ET公布10月FOMC纪要之后的报价中。12/9 14:00 ET公布\n
- 预期来源: Investing.com Fed Rate Monitor（CME期货，11/19 05:25 AM 
- EST）2026-11-19查\n预期更新于 2026-11-19
+ 货，2026-11-20 05:25 AM EST更新）：12月维持在3.75%–4.00%概率
+ 为4.8%（工具所示前一日0.4%），加息25bp至4.00%–4.25%概率9
+ 5.2%（前一日99.6%、前一周91.9%）；加息50bp概率未再显示
+ （前一周曾为8.1%）。较本日历11/19记录（加息25bp 93.9%、5
+ 0bp 6.1%、维持0%）相比，维持利率的尾部升至4.8%，50bp加
+ 息已不再被定价，25bp仍为压倒性主情景。12/9 14:00 ET公布
+ \n预期来源: Investing.com Fed Rate Monitor（CME期货，11/20 05:25 A
+ M EST）2026-11-20查\n预期更新于 2026-11-20
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:美联储主席新闻发布会(12月FOMC)
 DTSTART;TZID=Asia/Shanghai:20261210T033000
 DTEND;TZID=Asia/Shanghai:20261210T043000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:fomc-pc-20261209@investing
 DESCRIPTION:美东时间: 2026-12-09 14:30 ET\n北京时间: 2026-12-10 03
  :30\n按惯例声明后30分钟举行\n来源: https://www.federalreserve.
  gov/monetarypolicy/fomccalendars.htm
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FOMC1月利率决议/声明（到1月累计：加50bp约71.0%，
- 加25bp约24.5%，加75bp约4.5%）
+SUMMARY:FOMC1月利率决议/声明（到1月累计：加50bp约63.6%，
+ 加25bp约34.8%）
 DTSTART;TZID=Asia/Shanghai:20270128T030000
 DTEND;TZID=Asia/Shanghai:20270128T033000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:fomc-stmt-20270127@investing
 DESCRIPTION:美东时间: 2027-01-27 14:00 ET\n北京时间: 2027-01-28 03
  :00\n会议为两天，第二天14:00 ET发布声明\n来源: https://www.
  federalreserve.gov/monetarypolicy/fomccalendars.htm\n预期：当前目标
  区间3.75%–4.00%。Investing.com Fed Rate Monitor（CME期货，2026-11
- -19 05:25 AM EST）：1月会后最可能落在4.25%–4.50%（71.0%，工
- 具所示前一日71.0%；即若12月加25bp后再加一次），其次4.0
- 0%–4.25% 24.5%（前一日24.5%；12月加息后1月按兵不动），4.
- 50%–4.75% 4.5%（前一日4.5%）。累计看：加50bp约71.0%、加25b
- p约24.5%、加75bp约4.5%。维持在3.75%–4.00%的概率为0%。较本
- 日历11/18早间记录（70.5%/27.8%/1.8%）相比，+50bp略升，+25bp
- 下降，+75bp尾部升至4.5%。1/27 14:00 ET公布\n预期来源: Invest
- ing.com Fed Rate Monitor（CME期货，11/19 05:25 AM EST）2026-11-19查
- \n预期更新于 2026-11-19
+ -20 05:25 AM EST）：1月会后最可能落在4.25%–4.50%（63.6%，工
+ 具所示前一日64.1%；即若12月加25bp后再加一次），其次4.0
+ 0%–4.25% 34.8%（前一日35.7%；12月加息后1月按兵不动），
+ 维持在3.75%–4.00% 1.6%（前一日0.1%）。累计看：加50bp约63.
+ 6%、加25bp约34.8%；加75bp概率未再显示。较本日历11/19记录
+ （+50bp 71.0%、+25bp 24.5%、+75bp 4.5%）相比，两次加息概率回
+ 落，一次加息上升。1/27 14:00 ET公布\n预期来源: Investing.co
+ m Fed Rate Monitor（CME期货，11/20 05:25 AM EST）2026-11-20查\n预
+ 期更新于 2026-11-20
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:美联储主席新闻发布会(1月FOMC)
 DTSTART;TZID=Asia/Shanghai:20270128T033000
 DTEND;TZID=Asia/Shanghai:20270128T043000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:fomc-pc-20270127@investing
 DESCRIPTION:美东时间: 2027-01-27 14:30 ET\n北京时间: 2027-01-28 03
  :30\n按惯例声明后30分钟举行\n来源: https://www.federalreserve.
  gov/monetarypolicy/fomccalendars.htm
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FOMC3月利率决议/声明（到3月加75bp约49.0%，加50bp约3
- 9.9%）
+SUMMARY:FOMC3月利率决议/声明（到3月加50bp约46.4%，加75bp约3
+ 8.0%）
 DTSTART;TZID=Asia/Shanghai:20270318T020000
 DTEND;TZID=Asia/Shanghai:20270318T023000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:fomc-stmt-20270317@investing
 DESCRIPTION:美东时间: 2027-03-17 14:00 ET\n北京时间: 2027-03-18 02
  :00\n会议为两天，第二天14:00 ET发布声明；附经济预测(SEP
  )\n来源: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
- \n预期：Investing.com Fed Rate Monitor（CME期货，2026-11-19 05:25 A
- M EST）：3月会后目标区间概率为4.50%–4.75% 49.0%（工具所
- 示前一日45.1%）、4.25%–4.50% 39.9%（前一日42.6%）、4.00%–4
- .25% 8.1%（前一日9.5%）、4.75%–5.00% 3.0%（前一日2.7%）。即
- 到3月累计加息三次（至4.50%–4.75%）已明显领先两次（至
- 4.25%–4.50%）。较本日历11/18早间记录（45.0%/43.6%/10.3%/1.1%
- ）相比，三次加息概率升至约一半，两次加息回落。3/17 
- 14:00 ET公布\n预期来源: Investing.com Fed Rate Monitor（CME期货
- ，11/19 05:25 AM EST）2026-11-19查\n预期更新于 2026-11-19
+ \n预期：Investing.com Fed Rate Monitor（CME期货，2026-11-20 05:25 A
+ M EST）：3月会后目标区间概率为4.25%–4.50% 46.4%（工具所
+ 示前一日47.8%）、4.50%–4.75% 38.0%（前一日36.9%）、4.00%–4
+ .25% 15.0%（前一日15.2%）、3.75%–4.00% 0.6%（前一日0.1%）。
+ 即到3月累计加息两次（至4.25%–4.50%）重新领先三次（至
+ 4.50%–4.75%）。较本日历11/19记录（+75bp 49.0%、+50bp 39.9%、+
+ 25bp 8.1%、+100bp 3.0%）相比，三次加息不再领先，两次加息
+ 升至主情景。3/17 14:00 ET公布\n预期来源: Investing.com Fed Rat
+ e Monitor（CME期货，11/20 05:25 AM EST）2026-11-20查\n预期更新
+ 于 2026-11-20
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:美联储主席新闻发布会(3月FOMC)
 DTSTART;TZID=Asia/Shanghai:20270318T023000
 DTEND;TZID=Asia/Shanghai:20270318T033000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:fomc-pc-20270317@investing
 DESCRIPTION:美东时间: 2027-03-17 14:30 ET\n北京时间: 2027-03-18 02
  :30\n按惯例声明后30分钟举行\n来源: https://www.federalreserve.
  gov/monetarypolicy/fomccalendars.htm
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FOMC4月利率决议/声明（市场定价4月会后多在4.50%–
- 4.75%，约46.2%）
+SUMMARY:FOMC4月利率决议/声明（4月会后4.50%–4.75%约39.9%，4.
+ 25%–4.50%约39.4%，几乎持平）
 DTSTART;TZID=Asia/Shanghai:20270429T020000
 DTEND;TZID=Asia/Shanghai:20270429T023000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:fomc-stmt-20270428@investing
 DESCRIPTION:美东时间: 2027-04-28 14:00 ET\n北京时间: 2027-04-29 02
  :00\n会议为两天，第二天14:00 ET发布声明。美联储2026-11-12
@@ -797,21 +802,22 @@ DESCRIPTION:美东时间: 2027-04-28 14:00 ET\n北京时间: 2027-04-29 02
  来源: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm\n
  预期：美联储11/12宣布修订后的2027年FOMC暂定日程：4/27–
  28为常规议息会议（声明于第二天发布，无SEP）。Investing
- .com Fed Rate Monitor（CME期货，2026-11-19 05:25 AM EST）：4月会
- 后概率4.50%–4.75% 46.2%（工具所示前一日44.4%）、4.25%–4.5
- 0% 30.0%（前一日33.0%）、4.75%–5.00% 17.3%（前一日15.0%）、4
- .00%–4.25% 5.6%（前一日6.8%）、5.00%–5.25% 0.9%（前一日0.8%
- ）。众数仍在4.50%–4.75%。较本日历11/18早间记录（44.6%/33
- .3%/14.8%/7.1%/0.3%）相比，4.50%–4.75%与4.75%–5.00%均上升。
+ .com Fed Rate Monitor（CME期货，2026-11-20 05:25 AM EST）：4月会
+ 后概率4.50%–4.75% 39.9%（工具所示前一日39.6%）、4.25%–4.5
+ 0% 39.4%（前一日39.8%）、4.00%–4.25% 11.8%（前一日11.5%）、4
+ .75%–5.00% 8.4%（前一日9.0%）、3.75%–4.00% 0.5%（前一日0.0%
+ ）。两个众数几乎持平。较本日历11/19记录（4.50%–4.75% 4
+ 6.2%、4.25%–4.50% 30.0%、4.75%–5.00% 17.3%、4.00%–4.25% 5.6%、5.
+ 00%–5.25% 0.9%）相比，4.50%–4.75%与更长加息路径均回落。
  当前目标区间3.75%–4.00%。4/28 14:00 ET公布\n预期来源: 美
  联储官网新闻稿2026-11-12；Investing.com Fed Rate Monitor（CME期
- 货，11/19 05:25 AM EST）2026-11-19查\n预期更新于 2026-11-19
+ 货，11/20 05:25 AM EST）2026-11-20查\n预期更新于 2026-11-20
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:美联储主席新闻发布会(4月FOMC)
 DTSTART;TZID=Asia/Shanghai:20270429T023000
 DTEND;TZID=Asia/Shanghai:20270429T033000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:fomc-pc-20270428@investing
 DESCRIPTION:美东时间: 2027-04-28 14:30 ET\n北京时间: 2027-04-29 02
  :30\n按惯例声明后30分钟举行\n来源: https://www.federalreserve.
@@ -821,7 +827,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC10月会议纪要
 DTSTART;TZID=Asia/Shanghai:20261119T030000
 DTEND;TZID=Asia/Shanghai:20261119T033000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:fomc-min-20261118@investing
 DESCRIPTION:美东时间: 2026-11-18 14:00 ET\n北京时间: 2026-11-19 03
  :00\n美联储官网货币政策页Upcoming Dates已正式列出该发布
@@ -832,7 +838,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC12月会议纪要
 DTSTART;TZID=Asia/Shanghai:20261231T030000
 DTEND;TZID=Asia/Shanghai:20261231T033000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:fomc-min-20261230@investing
 DESCRIPTION:美东时间: 2026-12-30 14:00 ET\n北京时间: 2026-12-31 03
  :00\n美联储官网货币政策页Upcoming Dates已正式列出该发布
@@ -843,7 +849,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC1月会议纪要
 DTSTART;TZID=Asia/Shanghai:20270218T030000
 DTEND;TZID=Asia/Shanghai:20270218T033000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:fomc-min-20270217@investing
 DESCRIPTION:美东时间: 2027-02-17 14:00 ET\n北京时间: 2027-02-18 03
  :00\n美联储官网货币政策页Upcoming Dates已正式列出该发布
@@ -851,10 +857,22 @@ DESCRIPTION:美东时间: 2027-02-17 14:00 ET\n北京时间: 2027-02-18 03
  源: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:(预计) FOMC3月会议纪要
+DTSTART;TZID=Asia/Shanghai:20270408T020000
+DTEND;TZID=Asia/Shanghai:20270408T023000
+DTSTAMP:20261120T112500Z
+UID:fomc-min-20270407@investing
+DESCRIPTION:美东时间: 2027-04-07 14:00 ET\n北京时间: 2027-04-08 02
+ :00\n预计：按会后三周惯例推算（3/17决议后第三周周三
+ ）；美联储官网Upcoming Dates目前仅正式列出至2/17的1月会
+ 议纪要\n来源: https://www.federalreserve.gov/monetarypolicy/fomccalen
+ dars.htm
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:美股休市（感恩节）
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:nyse-closed-20261126@investing
 DESCRIPTION:来源: https://www.nyse.com/markets/hours-calendars
 TRANSP:TRANSPARENT
@@ -863,7 +881,7 @@ BEGIN:VEVENT
 SUMMARY:美股休市（圣诞节）
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:nyse-closed-20261225@investing
 DESCRIPTION:来源: https://www.nyse.com/markets/hours-calendars
 TRANSP:TRANSPARENT
@@ -872,7 +890,7 @@ BEGIN:VEVENT
 SUMMARY:美股休市（元旦）
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:nyse-closed-20270101@investing
 DESCRIPTION:来源: https://www.nyse.com/markets/hours-calendars
 TRANSP:TRANSPARENT
@@ -881,7 +899,7 @@ BEGIN:VEVENT
 SUMMARY:美股休市（马丁路德金纪念日）
 DTSTART;VALUE=DATE:20270118
 DTEND;VALUE=DATE:20270119
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:nyse-closed-20270118@investing
 DESCRIPTION:来源: https://www.nyse.com/markets/hours-calendars
 TRANSP:TRANSPARENT
@@ -890,7 +908,7 @@ BEGIN:VEVENT
 SUMMARY:美股休市（总统日）
 DTSTART;VALUE=DATE:20270215
 DTEND;VALUE=DATE:20270216
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:nyse-closed-20270215@investing
 DESCRIPTION:来源: https://www.nyse.com/markets/hours-calendars
 TRANSP:TRANSPARENT
@@ -899,7 +917,7 @@ BEGIN:VEVENT
 SUMMARY:美股休市（耶稣受难日）
 DTSTART;VALUE=DATE:20270326
 DTEND;VALUE=DATE:20270327
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:nyse-closed-20270326@investing
 DESCRIPTION:来源: https://www.nyse.com/markets/hours-calendars
 TRANSP:TRANSPARENT
@@ -908,7 +926,7 @@ BEGIN:VEVENT
 SUMMARY:美股提前收盘13:00 ET（感恩节次日）
 DTSTART;TZID=Asia/Shanghai:20261128T020000
 DTEND;TZID=Asia/Shanghai:20261128T021500
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:nyse-early-20261127@investing
 DESCRIPTION:美东时间: 2026-11-27 13:00 ET\n北京时间: 2026-11-28 02
  :00\nNYSE 13:00 ET 提前收盘（期权13:15）\n来源: https://www.nyse
@@ -918,7 +936,7 @@ BEGIN:VEVENT
 SUMMARY:美股提前收盘13:00 ET（平安夜）
 DTSTART;TZID=Asia/Shanghai:20261225T020000
 DTEND;TZID=Asia/Shanghai:20261225T021500
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:nyse-early-20261224@investing
 DESCRIPTION:美东时间: 2026-12-24 13:00 ET\n北京时间: 2026-12-25 02
  :00\nNYSE 13:00 ET 提前收盘（期权13:15）\n来源: https://www.nyse
@@ -929,7 +947,7 @@ SUMMARY:苹果财报 FY26Q4（盘后）（实际EPS $2.10/营收$1144.8亿
  ；预期$1.99/$1134亿）
 DTSTART;TZID=Asia/Shanghai:20261103T053000
 DTEND;TZID=Asia/Shanghai:20261103T063000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:er-aapl-20261102@investing
 DESCRIPTION:美东时间: 2026-11-02 16:30 ET\n北京时间: 2026-11-03 05
  :30\n公司已确认：财报16:30 ET发布，电话会17:00 ET\n来源: h
@@ -946,7 +964,7 @@ SUMMARY:AMD财报 Q3（盘后）（实际EPS $2.09/营收$133.8亿；预
  期$1.95/$130.9亿）
 DTSTART;TZID=Asia/Shanghai:20261104T060000
 DTEND;TZID=Asia/Shanghai:20261104T070000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:er-amd-20261103@investing
 DESCRIPTION:美东时间: 2026-11-03 17:00 ET\n北京时间: 2026-11-04 06
  :00\n公司已确认：盘后发布，电话会17:00 ET（所示时间为
@@ -965,7 +983,7 @@ SUMMARY:英伟达财报 FY27Q3（盘后）（实际调整后EPS $2.68/营
  收$1158亿；预期约$2.47/$1087–1093亿）
 DTSTART;TZID=Asia/Shanghai:20261118T052000
 DTEND;TZID=Asia/Shanghai:20261118T062000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:er-nvda-20261117@investing
 DESCRIPTION:美东时间: 2026-11-17 16:20 ET\n北京时间: 2026-11-18 05
  :20\n公司已确认：约16:20 ET发布，电话会17:00 ET\n来源: http
@@ -987,11 +1005,11 @@ DESCRIPTION:美东时间: 2026-11-17 16:20 ET\n北京时间: 2026-11-18 05
  新闻稿2026-11-17、CNBC 2026-11-18查\n预期更新于 2026-11-18
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:博通财报 FY26Q4（盘后）（预期EPS ~$3.84/营收~$349亿
- ）
+SUMMARY:博通财报 FY26Q4（盘后）（预期EPS约$3.83–3.89/营收
+ 约$349–356亿）
 DTSTART;TZID=Asia/Shanghai:20261210T060000
 DTEND;TZID=Asia/Shanghai:20261210T070000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:er-avgo-20261209@investing
 DESCRIPTION:美东时间: 2026-12-09 17:00 ET\n北京时间: 2026-12-10 06
  :00\n公司已确认（2026-11-09官方新闻稿）：12/9美股收盘后
@@ -999,18 +1017,41 @@ DESCRIPTION:美东时间: 2026-12-09 17:00 ET\n北京时间: 2026-12-10 06
  会）\n来源: https://investors.broadcom.com/news-releases/news-release-
  details/broadcom-inc-announce-fourth-quarter-and-fiscal-year-2026\n预期
  ：公司已发官方新闻稿确认：12/9美股收盘后发布FY26Q4财
- 报及展望，电话会14:00 PT/17:00 ET。一致预期已更新：Theta 
- Research（数据截至11/13）营收$349.1亿、调整后EPS $3.84；与
- 此前11/2较宽区间（营收约$349–356亿，EPS $3.82–3.90）相
- 比，共识向约$349亿/$3.84靠拢。公司指引营收约$348亿、AI
- 半导体营收$217亿\n预期来源: Broadcom IR新闻稿2026-11-09；The
- ta Research 2026-11-15查\n预期更新于 2026-11-15
+ 报及展望，电话会14:00 PT/17:00 ET。一致预期因来源略有差
+ 异：GNG Research（截至11/19 16:43 ET；43位分析师EPS、44位营
+ 收）调整后EPS $3.89（区间$3.06–$4.12）、营收$355.9亿（区
+ 间$340.5–$373.7亿）；MarketBeat列共识EPS $3.83、营收$349.0亿
+ ；Theta Research（数据截至11/13）为营收$349.1亿、调整后EPS 
+ $3.84。公司指引营收约$348亿、AI半导体营收$217亿\n预期来
+ 源: GNG Research 2026-11-19；MarketBeat、Theta Research、Broadcom IR
+ 新闻稿2026-11-09；2026-11-20查\n预期更新于 2026-11-20
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:美光财报 FY27Q1（盘后）（预期EPS约$38.29/营收约$618
+ .3亿）
+DTSTART;TZID=Asia/Shanghai:20261218T053000
+DTEND;TZID=Asia/Shanghai:20261218T063000
+DTSTAMP:20261120T112500Z
+UID:er-mu-20261217@investing
+DESCRIPTION:美东时间: 2026-12-17 16:30 ET\n北京时间: 2026-12-18 05
+ :30\n公司已确认（2026-11-19官方新闻稿）：电话会14:30 MT/16
+ :30 ET；近年财报通常在美股收盘后、电话会前发布\n来源
+ : https://investors.micron.com/news/press-release/2026/Micron-Technology-t
+ o-Report-Fiscal-First-Quarter-Results-on-December-17-2026/default.aspx\n
+ 预期：公司已确认（2026-11-19官方新闻稿）：12/17举行FY27Q
+ 1财报电话会，14:30 MT/16:30 ET（盘后）；近年财报通常在
+ 美股收盘后、电话会前发布。一致预期（Theta Research数据
+ 截至11/19；Senntric引述Yahoo Finance 11/19，35个营收预测、30
+ 个EPS预测）：营收约$618.3亿，EPS约$38.29。公司指引营收$6
+ 15亿±15亿，非GAAP EPS $38.15±1.00，非GAAP毛利率约86.25%\n预
+ 期来源: Micron IR新闻稿2026-11-19；Theta Research、Yahoo Finance/S
+ enntric 2026-11-20查\n预期更新于 2026-11-20
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:摩根大通财报 Q4（盘前）
 DTSTART;TZID=Asia/Shanghai:20270114T194500
 DTEND;TZID=Asia/Shanghai:20270114T213000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:er-jpm-20270114@investing
 DESCRIPTION:美东时间: 2027-01-14 06:45 ET\n北京时间: 2027-01-14 19
  :45\n公司已确认：约06:45 ET发布，电话会08:30 ET\n来源: http
@@ -1022,7 +1063,7 @@ BEGIN:VEVENT
 SUMMARY:(预计) 甲骨文财报（盘后）（预期EPS $1.89）
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:er-orcl-20261214@investing
 DESCRIPTION:公司尚未确认，日期为第三方财报日历预测，
  可能变动。注意：美东盘后≈北京时间次日早晨\n来源: h
@@ -1033,25 +1074,10 @@ DESCRIPTION:公司尚未确认，日期为第三方财报日历预测，
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:(预计) 美光财报（盘后）（预期EPS ~$38.2）
-DTSTART;VALUE=DATE:20261223
-DTEND;VALUE=DATE:20261224
-DTSTAMP:20261120T011500Z
-UID:er-mu-20261223@investing
-DESCRIPTION:公司尚未确认，日期为第三方财报日历预测，
- 可能变动。注意：美东盘后≈北京时间次日早晨\n来源: h
- ttps://afterns.com/en/calendar/monthly/2026-12 \; https://www.wallstreetho
- rizon.com\n预期：一致预期：营收约$615–617亿，EPS约$38.20
- –38.29；公司指引营收$615亿±15亿，EPS $38.15±1.00\n预期来
- 源: micronstock.com/Theta Research、Micron IR 2026-11-02查\n预期更
- 新于 2026-11-02
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:(预计) 台积电财报（美股盘前）
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:er-tsm-20270114@investing
 DESCRIPTION:公司尚未确认，日期为第三方财报日历预测，
  可能变动。注意：美东盘后≈北京时间次日早晨\n来源: h
@@ -1065,7 +1091,7 @@ BEGIN:VEVENT
 SUMMARY:(预计) 摩根士丹利财报（盘前）
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:er-ms-20270114@investing
 DESCRIPTION:公司尚未确认，日期为第三方财报日历预测，
  可能变动。注意：美东盘后≈北京时间次日早晨\n来源: h
@@ -1079,7 +1105,7 @@ BEGIN:VEVENT
 SUMMARY:(预计) 高盛财报（盘前）
 DTSTART;VALUE=DATE:20270119
 DTEND;VALUE=DATE:20270120
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:er-gs-20270119@investing
 DESCRIPTION:公司尚未确认，日期为第三方财报日历预测，
  可能变动。注意：美东盘后≈北京时间次日早晨\n来源: h
@@ -1093,7 +1119,7 @@ BEGIN:VEVENT
 SUMMARY:(预计) 奈飞财报（盘后）
 DTSTART;VALUE=DATE:20270119
 DTEND;VALUE=DATE:20270120
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:er-nflx-20270119@investing
 DESCRIPTION:公司尚未确认，日期为第三方财报日历预测，
  可能变动。注意：美东盘后≈北京时间次日早晨\n来源: h
@@ -1105,7 +1131,7 @@ BEGIN:VEVENT
 SUMMARY:(预计) 微软财报（盘后）
 DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270128
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:er-msft-20270127@investing
 DESCRIPTION:公司尚未确认，日期为第三方财报日历预测，
  可能变动。注意：美东盘后≈北京时间次日早晨\n来源: h
@@ -1119,7 +1145,7 @@ BEGIN:VEVENT
 SUMMARY:(预计) 特斯拉财报（盘后）
 DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270128
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:er-tsla-20270127@investing
 DESCRIPTION:公司尚未确认，日期为第三方财报日历预测，
  可能变动。注意：美东盘后≈北京时间次日早晨\n来源: h
@@ -1133,7 +1159,7 @@ BEGIN:VEVENT
 SUMMARY:(预计) Meta财报（盘后）
 DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270128
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:er-meta-20270127@investing
 DESCRIPTION:公司尚未确认，日期为第三方财报日历预测，
  可能变动。注意：美东盘后≈北京时间次日早晨\n来源: h
@@ -1147,7 +1173,7 @@ BEGIN:VEVENT
 SUMMARY:(预计) 英特尔财报（盘后）
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:er-intc-20270128@investing
 DESCRIPTION:公司尚未确认，日期为第三方财报日历预测，
  可能变动。注意：美东盘后≈北京时间次日早晨\n来源: h
@@ -1161,7 +1187,7 @@ BEGIN:VEVENT
 SUMMARY:(预计) 谷歌Alphabet财报（盘后）
 DTSTART;VALUE=DATE:20270203
 DTEND;VALUE=DATE:20270204
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:er-googl-20270203@investing
 DESCRIPTION:公司尚未确认，日期为第三方财报日历预测，
  可能变动。注意：美东盘后≈北京时间次日早晨\n来源: h
@@ -1174,7 +1200,7 @@ BEGIN:VEVENT
 SUMMARY:(预计) 亚马逊财报（盘后）
 DTSTART;VALUE=DATE:20270204
 DTEND;VALUE=DATE:20270205
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:er-amzn-20270204@investing
 DESCRIPTION:公司尚未确认，日期为第三方财报日历预测，
  可能变动。注意：美东盘后≈北京时间次日早晨\n来源: h
@@ -1187,7 +1213,7 @@ BEGIN:VEVENT
 SUMMARY:美国初请失业金人数
 DTSTART;TZID=Asia/Shanghai:20261105T213000
 DTEND;TZID=Asia/Shanghai:20261105T220000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:claims-weekly-est@investing
 RRULE:FREQ=WEEKLY;UNTIL=20270311T133000Z;BYDAY=TH
 EXDATE;TZID=Asia/Shanghai:20261126T213000
@@ -1201,15 +1227,16 @@ DESCRIPTION:美东时间: 每周四 08:30 ET（冬令时=北京21:30）\n
  均值19.775万（前值上修至19.575万，原报19.525万）；续请
  （截至11/7）176.3万（预期171.0万，前值下修至169.3万，原
  报169.7万），投保失业率1.1%持平，四周均值171.7万。下一
- 期已确认提前至周三11/25 08:30 ET（FRED发布日历已列）—
- —DOL官网（USDL 26-1722-NAT）、Investing.com、路透/IBKR、FRED 20
- 26-11-20查\n预期更新于 2026-11-20
+ 期已确认提前至周三11/25 08:30 ET（FRED发布日历已列；Inves
+ ting.com经济日历已列该日，但截至11/20傍晚尚未给出街市
+ 预测）——DOL官网（USDL 26-1722-NAT）、Investing.com、路透/IB
+ KR、FRED 2026-11-20查\n预期更新于 2026-11-20
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:美国初请失业金人数
 DTSTART;TZID=Asia/Shanghai:20270318T203000
 DTEND;TZID=Asia/Shanghai:20270318T210000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:claims-weekly-edt@investing
 RRULE:FREQ=WEEKLY;UNTIL=20270325T123000Z;BYDAY=TH
 DESCRIPTION:美东时间: 每周四 08:30 ET（夏令时=北京20:30）\n
@@ -1220,7 +1247,7 @@ BEGIN:VEVENT
 SUMMARY:美国初请失业金人数（感恩节提前至周三）
 DTSTART;TZID=Asia/Shanghai:20261125T213000
 DTEND;TZID=Asia/Shanghai:20261125T220000
-DTSTAMP:20261120T011500Z
+DTSTAMP:20261120T112500Z
 UID:claims-20261125@investing
 DESCRIPTION:美东时间: 2026-11-25 08:30 ET\n北京时间: 2026-11-25 21
  :30\nFRED发布日历（Unemployment Insurance Weekly Claims，rid=180；
