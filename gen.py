@@ -54,12 +54,14 @@ T("财报","er-nvda-20261117@investing","英伟达财报 FY27Q3（盘后）",(20
 T("财报","er-avgo-20261209@investing","博通财报 FY26Q4（盘后）",(2026,12,9),(17,0),"https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announce-fourth-quarter-and-fiscal-year-2026","公司已确认（2026-11-09官方新闻稿）：12/9美股收盘后发布财报及展望，电话会14:00 PT/17:00 ET（所示时间为电话会）",dur=60)
 T("财报","er-mu-20261217@investing","美光财报 FY27Q1（盘后）",(2026,12,17),(16,30),"https://investors.micron.com/news/press-release/2026/Micron-Technology-to-Report-Fiscal-First-Quarter-Results-on-December-17-2026/default.aspx","公司已确认（2026-11-19官方新闻稿）：电话会14:30 MT/16:30 ET；近年财报通常在美股收盘后、电话会前发布",dur=60)
 T("财报","er-jpm-20270114@investing","摩根大通财报 Q4（盘前）",(2027,1,14),(6,45),"https://www.jpmorganchase.com/ir","公司已确认：约06:45 ET发布，电话会08:30 ET",dur=105)
-for d,co,tm,code in [((2026,12,14),"甲骨文","盘后","orcl"),((2027,1,14),"台积电","美股盘前","tsm"),((2027,1,14),"摩根士丹利","盘前","ms"),((2027,1,19),"高盛","盘前","gs"),((2027,1,19),"奈飞","盘后","nflx"),((2027,1,27),"微软","盘后","msft"),((2027,1,27),"特斯拉","盘后","tsla"),((2027,1,27),"Meta","盘后","meta"),((2027,1,28),"英特尔","盘后","intc"),((2027,2,3),"谷歌Alphabet","盘后","googl"),((2027,2,4),"亚马逊","盘后","amzn")]:
+T("财报","er-ms-20270114@investing","摩根士丹利财报 Q4（盘前）",(2027,1,14),(7,30),"https://www.morganstanley.com/press-releases/morgan-stanley-schedules-4q-and-fy-2026-investor-call","公司已确认（2026-02-19官方新闻稿）：约07:30 ET发布2026年四季报及全年业绩，电话会09:30 ET",dur=120)
+T("财报","er-gs-20270119@investing","高盛财报 Q4（盘前）",(2027,1,19),(7,30),"https://www.goldmansachs.com/pressroom/press-releases/2025/conference-call-dates-to-announce-4q25-and-2026-earnings-results","公司已确认（2025-08-18官方新闻稿）：约07:30 ET发布新闻稿，电话会09:30 ET",dur=120)
+for d,co,tm,code in [((2026,12,14),"甲骨文","盘后","orcl"),((2027,1,14),"台积电","美股盘前","tsm"),((2027,1,19),"奈飞","盘后","nflx"),((2027,1,27),"微软","盘后","msft"),((2027,1,27),"特斯拉","盘后","tsla"),((2027,1,27),"Meta","盘后","meta"),((2027,1,28),"英特尔","盘后","intc"),((2027,2,3),"谷歌Alphabet","盘后","googl"),((2027,2,4),"亚马逊","盘后","amzn")]:
     A("财报",f"er-{code}-%04d%02d%02d"%d+"@investing",f"(预计) {co}财报（{tm}）",d,AF+"%04d-%02d"%d[:2]+" ; https://www.wallstreethorizon.com","公司尚未确认，日期为第三方财报日历预测，可能变动。注意：美东盘后≈北京时间次日早晨")
 
 # ===== 市场预期数据（每日更新此处；uid -> (标题后缀, 预期说明, 来源)）=====
 EXP_DATE="2026-11-03"
-EXP_NEW="2026-11-21"
+EXP_NEW="2026-11-22"
 # uid -> last expectation refresh date (overrides EXP_DATE/EXP_NEW when present)
 EXP_UPDATED={
 "er-aapl-20261102@investing":"2026-11-04",
@@ -68,12 +70,12 @@ EXP_UPDATED={
 "jolts-20261103@investing":"2026-11-04",
 "ismm-20261102@investing":"2026-11-03",
 "isms-20261104@investing":"2026-11-05",
-"er-avgo-20261209@investing":"2026-11-20",
+"er-avgo-20261209@investing":"2026-11-22",
 "er-orcl-20261214@investing":"2026-11-02",
-"er-mu-20261217@investing":"2026-11-20",
-"er-jpm-20270114@investing":"2026-11-02",
-"er-gs-20270119@investing":"2026-11-02",
-"er-ms-20270114@investing":"2026-11-02",
+"er-mu-20261217@investing":"2026-11-22",
+"er-jpm-20270114@investing":"2026-11-22",
+"er-gs-20270119@investing":"2026-11-22",
+"er-ms-20270114@investing":"2026-11-22",
 "er-msft-20270127@investing":"2026-11-02",
 "er-tsla-20270127@investing":"2026-11-02",
 "er-meta-20270127@investing":"2026-11-02",
@@ -103,12 +105,12 @@ EXP={
 "ppi-20261113@investing":("（实际环比+0.3%/同比+6.5%；预期+0.4%，核心+0.3%符合预期）","已公布（11/13 08:30 ET）：最终需求PPI环比+0.3%（Dow Jones共识+0.4%；9月修订后为+1.4%），同比+6.5%（为2022年11月+7.4%以来最大升幅）。核心PPI（剔除食品和能源）环比+0.3%，符合预期，同比+5.0%（与9月持平，Haver）。BLS口径“剔除食品、能源和贸易服务”环比+0.5%（与9月相同），同比+4.9%。分项：商品+0.5%、服务+0.2%、食品+1.3%、能源-0.1%；商品（剔食品能源）+0.5%。11月PPI将于12/15 08:30 ET公布","BLS官网新闻稿、CNBC、Haver Analytics 2026-11-14查"),
 "er-amd-20261103@investing":("（实际EPS $2.09/营收$133.8亿；预期$1.95/$130.9亿）","已公布（11/3盘后）：Q3营收$133.77亿（+45% YoY，一致预期约$130.6–130.9亿），调整后EPS $2.09（+74% YoY，一致预期$1.94–1.95），GAAP EPS $1.46；数据中心营收创纪录$85亿（+97%，预期$82亿）；Q4指引营收约$170亿±3%（分析师预期$162.3亿），非GAAP毛利率约55%；CEO称2027年营收增长超80%（分析师预期77%）；财报后盘后股价约+8%","AMD IR新闻稿、CNBC(LSEG)、Reuters/Investing.com 2026-11-04查"),
 "er-nvda-20261117@investing":("（实际调整后EPS $2.68/营收$1158亿；预期约$2.47/$1087–1093亿）","已公布（11/17盘后）：FY27Q3营收$1158亿（环比+20%、同比+103%，远高于赛前一致预期约$1087–1093亿：Yahoo/Bloomberg $109.15B、Theta $108.71B、Visible Alpha $109.3B），GAAP每股收益$2.70、调整后EPS $2.68（预期$2.47）；数据中心营收$1076亿（环比+21%、同比+110%；彭博共识曾约$1018.5亿）。GAAP/非GAAP毛利率74.8%/74.9%（公司指引74%±0.5个百分点）。Q4（该季多一周）指引营收$1300亿±3%（不含中国数据中心计算收入），毛利率71%–72%，GAAP/非GAAP营业费用约$110亿/$107亿；并将2028财年营收增速预期上调至约75%（此前约70%）。Vera Rubin NVL72已出货。Q3向股东返还$281亿，回购额度剩余约$2273亿。董事会主席在电话会上称不考虑请黄仁勋复任CEO，已聘Heidrick & Struggles寻永久CEO。CNBC报道股价盘后上涨近4%（24/7 Wall St.报道约+2.3%）。","NVIDIA官网Q3财报新闻稿2026-11-17、CNBC 2026-11-18查"),
-"er-avgo-20261209@investing":("（预期EPS约$3.83–3.89/营收约$349–356亿）","公司已发官方新闻稿确认：12/9美股收盘后发布FY26Q4财报及展望，电话会14:00 PT/17:00 ET。一致预期因来源略有差异：GNG Research（截至11/19 16:43 ET；43位分析师EPS、44位营收）调整后EPS $3.89（区间$3.06–$4.12）、营收$355.9亿（区间$340.5–$373.7亿）；MarketBeat列共识EPS $3.83、营收$349.0亿；Theta Research（数据截至11/13）为营收$349.1亿、调整后EPS $3.84。公司指引营收约$348亿、AI半导体营收$217亿","GNG Research 2026-11-19；MarketBeat、Theta Research、Broadcom IR新闻稿2026-11-09；2026-11-20查"),
+"er-avgo-20261209@investing":("（预期EPS约$3.83/营收约$349.0亿）","公司已发官方新闻稿确认：12/9美股收盘后发布FY26Q4财报及展望，电话会14:00 PT/17:00 ET。一致预期已收敛：Yahoo Finance（11/22查阅，行情截至11/20收盘）营收约$349.0亿（39位分析师，区间$347.4–355.9亿），EPS约$3.83（41位，区间$3.53–3.92；7日前同为$3.83）。MarketBeat与Theta Research（数据截至11/20）均为营收约$349.0亿、EPS约$3.83。公司指引营收约$348亿、AI半导体营收$217亿。","Yahoo Finance Analysis、MarketBeat、Theta Research 2026-11-22查；Broadcom IR新闻稿2026-11-09"),
 "er-orcl-20261214@investing":("（预期EPS $1.89）","一致预期：营收约$213.3亿，调整后EPS $1.89；公司指引EPS $1.85–1.93，营收同比+30%~34%","Backpack/TipRanks、CNBC(2026-09-10) 2026-11-02查"),
-"er-mu-20261217@investing":("（预期EPS约$38.29/营收约$618.3亿）","公司已确认（2026-11-19官方新闻稿）：12/17举行FY27Q1财报电话会，14:30 MT/16:30 ET（盘后）；近年财报通常在美股收盘后、电话会前发布。一致预期（Theta Research数据截至11/19；Senntric引述Yahoo Finance 11/19，35个营收预测、30个EPS预测）：营收约$618.3亿，EPS约$38.29。公司指引营收$615亿±15亿，非GAAP EPS $38.15±1.00，非GAAP毛利率约86.25%","Micron IR新闻稿2026-11-19；Theta Research、Yahoo Finance/Senntric 2026-11-20查"),
-"er-jpm-20270114@investing":("","一致预期：营收约$511亿，EPS约$5.89–5.91","Benzinga/Investing.com 2026-11-02查（远期，波动大）"),
-"er-gs-20270119@investing":("","一致预期：营收约$172亿，EPS约$16.50","BusinessQuant 2026-11-02查（单一来源，待核实）"),
-"er-ms-20270114@investing":("","一致预期：营收约$202亿，EPS约$2.95","Backpack 2026-11-02查（单一来源，待核实）"),
+"er-mu-20261217@investing":("（预期EPS约$38.22/营收约$617.2亿）","公司已确认（2026-11-19官方新闻稿）：12/17举行FY27Q1财报电话会，14:30 MT/16:30 ET（盘后）；近年财报通常在美股收盘后、电话会前发布。一致预期：Yahoo Finance（11/22查阅，行情截至11/20收盘）营收约$617.2亿（34位分析师，区间$580.6–648.3亿），EPS约$38.22（29位，区间$35.85–40.20；7日前为$38.29）。Theta Research（数据截至11/20）营收$617.2亿、EPS $38.29。公司指引营收$615亿±15亿，非GAAP EPS $38.15±1.00，非GAAP毛利率约86.25%。较本日历11/20记录（营收约$618.3亿、EPS约$38.29）营收与Yahoo EPS略下调。","Micron IR新闻稿2026-11-19；Yahoo Finance Analysis 2026-11-22查；Theta Research 2026-11-20"),
+"er-jpm-20270114@investing":("（预期EPS约$5.86/营收约$510.7亿）","公司已确认：约06:45 ET发布，电话会08:30 ET。一致预期（Yahoo Finance，11/22查阅，行情截至11/20收盘）：营收约$510.7亿（11位分析师，区间$494.5–525.4亿），EPS约$5.86（12位，区间$5.65–6.40；7日前同为$5.86，30日前为$5.92）。较本日历11/02记录（营收约$511亿，EPS约$5.89–5.91）EPS略下调。","JPMorgan IR；Yahoo Finance Analysis 2026-11-22查"),
+"er-gs-20270119@investing":("（预期EPS约$15.81/营收约$177.9亿）","公司已确认（2025-08-18官方新闻稿）：2027-01-19盘前约07:30 ET发布新闻稿，电话会09:30 ET。一致预期（Yahoo Finance，11/22查阅，行情截至11/20收盘）：营收约$177.9亿（12位分析师，区间$166.8–187.0亿），EPS约$15.81（17位，区间$13.44–18.45；7日前同为$15.81）。较本日历11/02记录（约$172亿/$16.50，单一来源BusinessQuant）营收上修、EPS下修。","Goldman Sachs新闻稿2025-08-18；Yahoo Finance Analysis 2026-11-22查"),
+"er-ms-20270114@investing":("（预期EPS约$2.94/营收约$203.7亿）","公司已确认（2026-02-19官方新闻稿）：2027-01-14盘前约07:30 ET发布2026年四季报及全年业绩，电话会09:30 ET。一致预期（Yahoo Finance，11/22查阅，行情截至11/20收盘）：营收约$203.7亿（11位分析师，区间$198.2–211.4亿），EPS约$2.94（16位，区间$2.72–3.22；7日前同为$2.94）。","Morgan Stanley新闻稿2026-02-19；Yahoo Finance Analysis 2026-11-22查"),
 "er-msft-20270127@investing":("","一致预期（2026年12月季）：营收约$900亿，EPS约$4.74","ADVFN/TipRanks 2026-11-02查（单一来源，待核实）"),
 "er-tsla-20270127@investing":("","一致预期：营收约$293亿，EPS约$0.50","Theta Research 2026-11-02查（单一来源，待核实）"),
 "er-meta-20270127@investing":("","一致预期：营收约$584亿，EPS约$8.17","搜索汇总(Investopedia相关) 2026-11-02查（单一来源，待核实）"),
@@ -144,7 +146,7 @@ def addexp(uid,title,desc,cat):
     return title,desc
 cal=Calendar(); cal.add("prodid","-//Investing//sherlock//CN"); cal.add("version","2.0"); cal.add("calscale","GREGORIAN")
 cal.add("x-wr-calname","Investing"); cal.add("x-wr-timezone","Asia/Shanghai")
-stamp=datetime(2026,11,21,11,10,tzinfo=ZoneInfo("UTC"))
+stamp=datetime(2026,11,22,11,15,tzinfo=ZoneInfo("UTC"))
 def mk(uid,title,s,e,desc,allday):
     x=Event(); x.add("uid",uid); x.add("dtstamp",stamp); x.add("summary",title); x.add("dtstart",s); x.add("dtend",e); x.add("description",desc)
     if allday: x.add("transp","TRANSPARENT")
